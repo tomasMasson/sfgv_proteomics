@@ -1,7 +1,6 @@
 Accession,Description,Coverage,# Peptides,# PSMs,# Unique Peptides,# Protein Groups,# AAs,MW [kDa],calc. pI,emPAI,emPAI%,Score A Sequest HT,# Peptides A Sequest HT,Sample
 A0A068FN38,Granulin OS=Spodoptera frugiperda granulovirus OX=307454 PE=3 SV=1,58.87096774,26,705,6,1,248,29.2,6.54,99999,16.45218807,1394.9,26,TM05
 A0A346QVT7,Pep/p10 OS=Spodoptera frugiperda granulovirus OX=307454 PE=4 SV=1,41.77545692,14,466,2,1,383,40.4,4.93,3980.072,0.6548154788,947.92,14,TM05
-A0A3G1ST95,Granulin (Fragment) OS=Spodoptera frugiperda granulovirus OX=307454 PE=3 SV=1,47.25274725,17,323,2,1,182,21.6,5.64,99999,16.45218807,702.4,17,TM05
 A0A0C5AUX0,Vp39 OS=Spodoptera frugiperda granulovirus OX=307454 PE=4 SV=1,95.67901235,30,262,30,1,324,36.5,6.58,1244.197,0.2046996774,536.3,30,TM05
 A0A346QVT6,Pep-2 OS=Spodoptera frugiperda granulovirus OX=307454 PE=4 SV=1,68.42105263,12,122,12,1,152,17.1,6.07,748.894,0.1232106814,332.35,12,TM05
 A0A068FPF5,49k OS=Spodoptera frugiperda granulovirus OX=307454 PE=4 SV=1,66.29955947,33,132,33,1,454,51.8,6.71,99,0.01628782907,283.1,33,TM05
