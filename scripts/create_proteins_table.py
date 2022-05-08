@@ -6,7 +6,7 @@ import click
 import pandas as pd
 
 
-def create_proteins_table(dataset1, dataset2, dataset3):
+def create_proteins_table(dataset1, dataset2, dataset3, output):
     """
     Merges the three protein tables of each replicate into a summary table.
     """
@@ -35,7 +35,8 @@ def create_proteins_table(dataset1, dataset2, dataset3):
                           "Protein Size (amino acids)": aa,
                           "Average Coverage (%)": coverage,
                           "Average emPAI": empai})
-    table.to_csv("Temporal.csv")
+    table = table.round(decimals=2)
+    table.to_csv(output)
 
 
 # CLI options
@@ -52,13 +53,16 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 @click.option("-d3",
               "--data3",
               help="Third dataset")
+@click.option("-o",
+              "--output",
+              help="Output table name")
 # CLI main function
-def cli(data1, data2, data3):
+def cli(data1, data2, data3, output):
     """
     Command line interface
     """
 
-    create_proteins_table(data1, data2, data3)
+    create_proteins_table(data1, data2, data3, output)
 
 
 if __name__ == "__main__":
