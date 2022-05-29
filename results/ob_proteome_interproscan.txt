@@ -1,0 +1,168 @@
+AXS01170.1	04ed38f267ad9409d687c8c5250d4016	298	Pfam	PF06061	Baculoviridae ME53	35	295	3.2E-32	T	29-05-2022	IPR010336	Baculoviridae ME53
+AXS01097.1	06efbab7497d8ca8e9780a5db7537a50	281	Pfam	PF04786	ssDNA binding protein	40	274	7.0E-40	T	29-05-2022	IPR006871	ssDNA-binding protein, baculovirus
+AXS01108.1	f0b6c21f885c6e500d6fa0193ac51189	219	Pfam	PF05274	Occlusion-derived virus envelope protein E25	42	217	1.2E-62	T	29-05-2022	IPR007938	Baculovirus occlusion-derived virus envelope, E25
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	PANTHER	PTHR23274	DNA HELICASE-RELATED	9	447	2.9E-59	T	29-05-2022	-	-
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	Gene3D	G3DSA:2.30.30.940	-	288	351	2.4E-5	T	29-05-2022	-	-
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	143	430	7.61E-38	T	29-05-2022	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	Gene3D	G3DSA:3.40.50.300	-	1	207	5.1E-32	T	29-05-2022	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	PANTHER	PTHR23274:SF11	ATP-DEPENDENT DNA HELICASE PIF1	9	447	2.9E-59	T	29-05-2022	-	-
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	23	193	2.82E-22	T	29-05-2022	IPR027417	P-loop containing nucleoside triphosphate hydrolase
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	MobiDBLite	mobidb-lite	consensus disorder prediction	441	472	-	T	29-05-2022	-	-
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	MobiDBLite	mobidb-lite	consensus disorder prediction	447	472	-	T	29-05-2022	-	-
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	Pfam	PF05970	PIF1-like helicase	26	197	9.7E-23	T	29-05-2022	IPR010285	DNA helicase Pif1-like
+AXS01146.1	bf0d959a83e25b1d5cc5a0c7b48b8326	472	CDD	cd18809	SF1_C_RecD	368	413	3.33119E-12	T	29-05-2022	-	-
+AXS01033.1	2baeb334d487fc723a44090617010ba0	353	MobiDBLite	mobidb-lite	consensus disorder prediction	108	137	-	T	29-05-2022	-	-
+AXS01033.1	2baeb334d487fc723a44090617010ba0	353	Pfam	PF04639	Baculoviral E56 protein, specific to ODV envelope	50	348	8.5E-110	T	29-05-2022	IPR006733	Baculovirus occlusion-derived virus envelope, E56
+AXS01044.1	bbb12fe2f27fc645a583a7b062f77516	228	Coils	Coil	Coil	158	178	-	T	29-05-2022	-	-
+AXS01083.1	b86c4d5106dfd43abb66c88b19d1cbb3	746	MobiDBLite	mobidb-lite	consensus disorder prediction	378	401	-	T	29-05-2022	-	-
+AXS01083.1	b86c4d5106dfd43abb66c88b19d1cbb3	746	Pfam	PF04583	Baculoviridae p74 conserved region	412	632	1.4E-49	T	29-05-2022	IPR007663	Baculoviridae p74
+AXS01083.1	b86c4d5106dfd43abb66c88b19d1cbb3	746	Pfam	PF08404	Baculoviridae P74 N-terminal	48	348	5.9E-106	T	29-05-2022	IPR013613	Baculoviridae p74 N-terminal
+AXS01095.1	ee899b08952ae3daf2527a5801212035	159	ProSiteProfiles	PS50940	Chitin-binding type-2 domain profile.	97	157	8.521968	T	29-05-2022	IPR002557	Chitin binding domain
+AXS01063.1	d7fc0a171c8f654a4c0b6e5f995c0f05	351	Pfam	PF05054	Autographa californica nuclear polyhedrosis virus (AcMNPV) protein	1	318	1.4E-48	T	29-05-2022	IPR007748	Autographa californica nuclear polyhedrosis virus (AcMNPV), Orf109
+AXS01036.1	5ba870c3e4fe362343cf53e23a78822d	152	Pfam	PF04512	Baculovirus polyhedron envelope protein, PEP, N terminus	16	127	1.6E-26	T	29-05-2022	IPR007600	Baculovirus polyhedron envelope protein PEP, N-terminal
+AXS01020.1	ec79cd08295bad2cb7d8e787542550b5	248	Pfam	PF00738	Polyhedrin	16	246	2.3E-124	T	29-05-2022	IPR001746	Polyhedrin
+AXS01037.1	cf70cc55e0164f7a7448ee8c4e56f249	383	Gene3D	G3DSA:1.10.287.1490	-	177	377	1.2E-11	T	29-05-2022	-	-
+AXS01037.1	cf70cc55e0164f7a7448ee8c4e56f249	383	Pfam	PF04513	Baculovirus polyhedron envelope protein, PEP, C terminus	161	303	1.2E-16	T	29-05-2022	IPR007601	Baculovirus polyhedron envelope protein PEP, C-terminal
+AXS01037.1	cf70cc55e0164f7a7448ee8c4e56f249	383	SUPERFAMILY	SSF58104	Methyl-accepting chemotaxis protein (MCP) signaling domain	94	365	3.66E-8	T	29-05-2022	-	-
+AXS01037.1	cf70cc55e0164f7a7448ee8c4e56f249	383	Pfam	PF04512	Baculovirus polyhedron envelope protein, PEP, N terminus	12	111	1.2E-22	T	29-05-2022	IPR007600	Baculovirus polyhedron envelope protein PEP, N-terminal
+AXS01028.1	e336479b75e296e12b92af5373b644e6	190	Pfam	PF05959	Nucleopolyhedrovirus protein of unknown function (DUF884)	2	171	4.6E-22	T	29-05-2022	IPR009235	Autographa californica nuclear polyhedrosis virus (AcMNPV), Orf146
+AXS01024.1	64f24dd12942951462ea63407ba4bb2b	73	Pfam	PF05531	Nucleopolyhedrovirus P10 protein	1	70	6.6E-19	T	29-05-2022	IPR008702	Nucleopolyhedrovirus P10
+AXS01111.1	706d4057514bd93d1ba736b8b4d12357	79	Pfam	PF06150	ChaB	9	62	2.5E-16	T	29-05-2022	IPR009317	ChaB
+AXS01111.1	706d4057514bd93d1ba736b8b4d12357	79	SUPERFAMILY	SSF140376	ChaB-like	2	62	1.01E-19	T	29-05-2022	IPR037205	ChaB superfamily
+AXS01111.1	706d4057514bd93d1ba736b8b4d12357	79	Gene3D	G3DSA:1.10.1740.70	ChaB	2	63	3.4E-19	T	29-05-2022	IPR037205	ChaB superfamily
+AXS01101.1	24a5497ce27aee21b39086546e7cd5ae	111	Pfam	PF06497	Protein of unknown function (DUF1098)	33	103	2.4E-11	T	29-05-2022	IPR009477	Baculovirus Ac102
+AXS01101.1	24a5497ce27aee21b39086546e7cd5ae	111	MobiDBLite	mobidb-lite	consensus disorder prediction	1	27	-	T	29-05-2022	-	-
+AXS01021.1	5f195d339c30664fe9b5756738d6cc66	287	PANTHER	PTHR24347:SF412	SERINE/THREONINE-PROTEIN KINASE DCLK3	20	284	4.3E-38	T	29-05-2022	-	-
+AXS01021.1	5f195d339c30664fe9b5756738d6cc66	287	ProSiteProfiles	PS50011	Protein kinase domain profile.	1	285	30.81708	T	29-05-2022	IPR000719	Protein kinase domain
+AXS01021.1	5f195d339c30664fe9b5756738d6cc66	287	Pfam	PF00069	Protein kinase domain	31	285	1.9E-42	T	29-05-2022	IPR000719	Protein kinase domain
+AXS01021.1	5f195d339c30664fe9b5756738d6cc66	287	ProSitePatterns	PS00108	Serine/Threonine protein kinases active-site signature.	131	143	-	T	29-05-2022	IPR008271	Serine/threonine-protein kinase, active site
+AXS01021.1	5f195d339c30664fe9b5756738d6cc66	287	Gene3D	G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1	11	287	1.4E-43	T	29-05-2022	-	-
+AXS01021.1	5f195d339c30664fe9b5756738d6cc66	287	PANTHER	PTHR24347	SERINE/THREONINE-PROTEIN KINASE	20	284	4.3E-38	T	29-05-2022	-	-
+AXS01021.1	5f195d339c30664fe9b5756738d6cc66	287	SMART	SM00220	serkin_6	29	285	1.3E-35	T	29-05-2022	IPR000719	Protein kinase domain
+AXS01021.1	5f195d339c30664fe9b5756738d6cc66	287	SUPERFAMILY	SSF56112	Protein kinase-like (PK-like)	28	286	9.04E-51	T	29-05-2022	IPR011009	Protein kinase-like domain superfamily
+AXS01161.1	66bbd482ebb1b4a9f3b7260a393a7777	417	MobiDBLite	mobidb-lite	consensus disorder prediction	33	47	-	T	29-05-2022	-	-
+AXS01161.1	66bbd482ebb1b4a9f3b7260a393a7777	417	MobiDBLite	mobidb-lite	consensus disorder prediction	11	26	-	T	29-05-2022	-	-
+AXS01161.1	66bbd482ebb1b4a9f3b7260a393a7777	417	MobiDBLite	mobidb-lite	consensus disorder prediction	1	49	-	T	29-05-2022	-	-
+AXS01035.1	dbf35b0c30ed7a0d8b20be8a2cd4ba57	196	Pfam	PF04512	Baculovirus polyhedron envelope protein, PEP, N terminus	16	118	2.9E-27	T	29-05-2022	IPR007600	Baculovirus polyhedron envelope protein PEP, N-terminal
+AXS01047.1	0ef890aba1a4bffe9fdc367330269aa4	100	MobiDBLite	mobidb-lite	consensus disorder prediction	27	48	-	T	29-05-2022	-	-
+AXS01047.1	0ef890aba1a4bffe9fdc367330269aa4	100	MobiDBLite	mobidb-lite	consensus disorder prediction	25	80	-	T	29-05-2022	-	-
+AXS01047.1	0ef890aba1a4bffe9fdc367330269aa4	100	MobiDBLite	mobidb-lite	consensus disorder prediction	49	69	-	T	29-05-2022	-	-
+AXS01057.1	b75549d8161d9be8706af0022f173f7c	380	Pfam	PF04631	Per os infectivity factor 2	7	372	0.0	T	29-05-2022	IPR006725	Per os infectivity factor 2
+AXS01104.1	be9d71bd299ccbce0f2f13bde2e7eda6	304	SUPERFAMILY	SSF56784	HAD-like	123	262	3.54E-9	T	29-05-2022	IPR036412	HAD-like superfamily
+AXS01104.1	be9d71bd299ccbce0f2f13bde2e7eda6	304	CDD	cd01427	HAD_like	126	194	1.18849E-4	T	29-05-2022	-	-
+AXS01104.1	be9d71bd299ccbce0f2f13bde2e7eda6	304	Gene3D	G3DSA:3.40.50.1000	-	124	261	1.1E-5	T	29-05-2022	IPR023214	HAD superfamily
+AXS01104.1	be9d71bd299ccbce0f2f13bde2e7eda6	304	TIGRFAM	TIGR01681	HAD-SF-IIIC: HAD phosphatase, family IIIC	125	268	1.1E-33	T	29-05-2022	IPR010033	HAD-superfamily phosphatase, subfamily IIIC
+AXS01104.1	be9d71bd299ccbce0f2f13bde2e7eda6	304	TIGRFAM	TIGR01684	viral_ppase: viral phosphatase	4	297	1.4E-125	T	29-05-2022	IPR007827	Protein of unknown function DUF694
+AXS01104.1	be9d71bd299ccbce0f2f13bde2e7eda6	304	Pfam	PF05152	Protein of unknown function (DUF705)	4	297	1.2E-93	T	29-05-2022	IPR007827	Protein of unknown function DUF694
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	Coils	Coil	Coil	292	312	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	Coils	Coil	Coil	161	209	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	MobiDBLite	mobidb-lite	consensus disorder prediction	260	282	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	MobiDBLite	mobidb-lite	consensus disorder prediction	629	654	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	MobiDBLite	mobidb-lite	consensus disorder prediction	726	773	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	MobiDBLite	mobidb-lite	consensus disorder prediction	256	282	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	MobiDBLite	mobidb-lite	consensus disorder prediction	726	774	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	Coils	Coil	Coil	412	432	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	PANTHER	PTHR48125	LP07818P1	259	1103	1.5E-17	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	Coils	Coil	Coil	366	393	-	T	29-05-2022	-	-
+AXS01059.1	3f1bd79fc9d156d30a68941e0b688671	1143	MobiDBLite	mobidb-lite	consensus disorder prediction	591	682	-	T	29-05-2022	-	-
+AXS01092.1	584f02991a25292da2ae0d0482d97f1a	541	Pfam	PF05092	Per os infectivity	10	537	0.0	T	29-05-2022	IPR007784	Per os infectivity factor
+AXS01165.1	d78e4a662aedb96e4eda75a292fb8e08	77	Coils	Coil	Coil	58	77	-	T	29-05-2022	-	-
+AXS01160.1	357079bf718923d6fbe23b9328a21b4f	196	Pfam	PF05883	Baculovirus U-box/Ring-like domain	57	188	5.8E-27	T	29-05-2022	IPR008573	Baculovirus U-box/Ring-like
+AXS01048.1	ce151bf87c663cf0760199f58edd36a2	111	Gene3D	G3DSA:1.20.5.170	-	11	50	2.7E-5	T	29-05-2022	-	-
+AXS01048.1	ce151bf87c663cf0760199f58edd36a2	111	Coils	Coil	Coil	12	39	-	T	29-05-2022	-	-
+AXS01150.1	219907c8af9f282f062037d5651b97b8	674	Gene3D	G3DSA:1.50.10.100	Chondroitin AC/alginate lyase	40	383	0.0	T	29-05-2022	IPR008929	Chondroitin AC/alginate lyase
+AXS01150.1	219907c8af9f282f062037d5651b97b8	674	Gene3D	G3DSA:2.70.98.100	-	384	566	9.5E-58	T	29-05-2022	IPR043082	Baculovirus occlusion-derived virus envelope, E66, core domain
+AXS01150.1	219907c8af9f282f062037d5651b97b8	674	Pfam	PF04850	Baculovirus E66 occlusion-derived virus envelope protein	288	630	4.8E-69	T	29-05-2022	IPR006934	Baculovirus occlusion-derived virus envelope, E66
+AXS01150.1	219907c8af9f282f062037d5651b97b8	674	SUPERFAMILY	SSF48230	Chondroitin AC/alginate lyase	37	349	2.93E-75	T	29-05-2022	IPR008929	Chondroitin AC/alginate lyase
+AXS01067.1	cf8540af8dc832dc9565232a0858bb40	320	MobiDBLite	mobidb-lite	consensus disorder prediction	90	126	-	T	29-05-2022	-	-
+AXS01067.1	cf8540af8dc832dc9565232a0858bb40	320	MobiDBLite	mobidb-lite	consensus disorder prediction	92	126	-	T	29-05-2022	-	-
+AXS01065.1	2f87dcce105bebca5e1f75056d8fb1cf	291	Pfam	PF05311	Baculovirus 33KDa late protein (PP31)	81	262	7.9E-6	T	29-05-2022	IPR007975	Baculovirus pp39
+AXS01065.1	2f87dcce105bebca5e1f75056d8fb1cf	291	MobiDBLite	mobidb-lite	consensus disorder prediction	269	291	-	T	29-05-2022	-	-
+AXS01135.1	92f9a7983563c3a1dcaa3c96d3a01101	139	Pfam	PF05341	Per os infectivity factor 6	30	125	5.0E-26	T	29-05-2022	IPR008005	Per os infectivity factor 6
+AXS01084.1	36935ec23cd2f92a8187e2c4753b9c45	90	MobiDBLite	mobidb-lite	consensus disorder prediction	70	90	-	T	29-05-2022	-	-
+AXS01117.1	9b0371c32315d1af640d318171f04a31	290	Pfam	PF05314	Baculovirus occlusion-derived virus envelope protein EC27	5	283	3.6E-81	T	29-05-2022	IPR007978	Baculovirus occlusion-derived virus envelope EC27
+AXS01128.1	f9adec06fcec06e856b93b54d8b60cc1	103	Pfam	PF06024	Orf78 (ac78)	4	98	4.4E-20	T	29-05-2022	IPR009261	Autographa californica nuclear polyhedrosis virus (AcMNPV), Protein AC78
+AXS01157.1	267728322e94390f390fa5cd87c25031	857	Gene3D	G3DSA:3.40.390.80	-	114	237	1.8E-7	T	29-05-2022	-	-
+AXS01157.1	267728322e94390f390fa5cd87c25031	857	ProSiteProfiles	PS51723	Peptidase family M60 domain profile.	30	321	29.458511	T	29-05-2022	IPR031161	Peptidase family M60 domain
+AXS01030.1	8076b19d12a19de7d79bf2e2b4e1764e	85	MobiDBLite	mobidb-lite	consensus disorder prediction	62	85	-	T	29-05-2022	-	-
+AXS01030.1	8076b19d12a19de7d79bf2e2b4e1764e	85	Pfam	PF10717	Occlusion-derived virus envelope protein ODV-E18	1	81	4.1E-22	T	29-05-2022	IPR019655	Baculovirus occlusion-derived virus envelope, E18
+AXS01109.1	41225fa6ec0fb2d16b13b80e3d185ea0	303	Pfam	PF05214	Baculovirus P33	57	302	2.0E-82	T	29-05-2022	IPR007879	FAD-linked sulfhydryl oxidase
+AXS01022.1	e59f5dbba507083eaa93d84f694f0724	203	MobiDBLite	mobidb-lite	consensus disorder prediction	97	141	-	T	29-05-2022	-	-
+AXS01022.1	e59f5dbba507083eaa93d84f694f0724	203	PRINTS	PR01217	Proline rich extensin signature	63	75	1.4E-10	T	29-05-2022	-	-
+AXS01022.1	e59f5dbba507083eaa93d84f694f0724	203	PRINTS	PR01217	Proline rich extensin signature	98	110	1.4E-10	T	29-05-2022	-	-
+AXS01022.1	e59f5dbba507083eaa93d84f694f0724	203	PRINTS	PR01217	Proline rich extensin signature	111	132	1.4E-10	T	29-05-2022	-	-
+AXS01022.1	e59f5dbba507083eaa93d84f694f0724	203	PRINTS	PR01217	Proline rich extensin signature	135	151	1.4E-10	T	29-05-2022	-	-
+AXS01022.1	e59f5dbba507083eaa93d84f694f0724	203	PRINTS	PR01217	Proline rich extensin signature	155	172	1.4E-10	T	29-05-2022	-	-
+AXS01022.1	e59f5dbba507083eaa93d84f694f0724	203	MobiDBLite	mobidb-lite	consensus disorder prediction	180	203	-	T	29-05-2022	-	-
+AXS01022.1	e59f5dbba507083eaa93d84f694f0724	203	MobiDBLite	mobidb-lite	consensus disorder prediction	96	144	-	T	29-05-2022	-	-
+AXS01145.1	948182fd2e35bcaa0a7e4379f4f8c78c	405	Coils	Coil	Coil	87	107	-	T	29-05-2022	-	-
+AXS01145.1	948182fd2e35bcaa0a7e4379f4f8c78c	405	Pfam	PF01771	Viral alkaline exonuclease	36	158	5.0E-6	T	29-05-2022	IPR034720	Viral alkaline exonuclease
+AXS01145.1	948182fd2e35bcaa0a7e4379f4f8c78c	405	PANTHER	PTHR46609	EXONUCLEASE, PHAGE-TYPE/RECB, C-TERMINAL DOMAIN-CONTAINING PROTEIN	23	252	1.2E-16	T	29-05-2022	-	-
+AXS01145.1	948182fd2e35bcaa0a7e4379f4f8c78c	405	PANTHER	PTHR46609:SF3	EXONUCLEASE, PHAGE-TYPE/RECB, C-TERMINAL DOMAIN-CONTAINING PROTEIN	23	252	1.2E-16	T	29-05-2022	-	-
+AXS01145.1	948182fd2e35bcaa0a7e4379f4f8c78c	405	SUPERFAMILY	SSF52980	Restriction endonuclease-like	32	246	1.88E-33	T	29-05-2022	IPR011335	Restriction endonuclease  type II-like
+AXS01145.1	948182fd2e35bcaa0a7e4379f4f8c78c	405	Gene3D	G3DSA:3.90.320.10	-	33	259	4.7E-24	T	29-05-2022	IPR011604	PD-(D/E)XK endonuclease-like domain superfamily
+AXS01145.1	948182fd2e35bcaa0a7e4379f4f8c78c	405	SUPERFAMILY	SSF57924	Inhibitor of apoptosis (IAP) repeat	227	322	9.81E-10	T	29-05-2022	-	-
+AXS01125.1	9ca42bbc4bc138d9cbd49ad87255f518	718	ProSiteProfiles	PS51807	Zinc finger C2HC baculovirus (BV)-type profile.	160	208	12.164195	T	29-05-2022	IPR013682	Baculovirus Vp91, capsid protein, N-terminal
+AXS01125.1	9ca42bbc4bc138d9cbd49ad87255f518	718	Coils	Coil	Coil	372	392	-	T	29-05-2022	-	-
+AXS01125.1	9ca42bbc4bc138d9cbd49ad87255f518	718	Pfam	PF08475	Viral capsid protein 91 N-terminal	7	203	4.4E-36	T	29-05-2022	IPR013682	Baculovirus Vp91, capsid protein, N-terminal
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	Gene3D	G3DSA:2.60.40.200	Superoxide dismutase, copper/zinc binding domain	1	141	1.9E-44	T	29-05-2022	IPR036423	Superoxide dismutase-like, copper/zinc binding domain superfamily
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	Pfam	PF00080	Copper/zinc superoxide dismutase (SODC)	11	137	4.1E-34	T	29-05-2022	IPR001424	Superoxide dismutase, copper/zinc binding domain
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	PRINTS	PR00068	Cu-Zn-superoxide dismutase family signature	41	63	1.1E-20	T	29-05-2022	IPR001424	Superoxide dismutase, copper/zinc binding domain
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	PRINTS	PR00068	Cu-Zn-superoxide dismutase family signature	91	113	1.1E-20	T	29-05-2022	IPR001424	Superoxide dismutase, copper/zinc binding domain
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	PRINTS	PR00068	Cu-Zn-superoxide dismutase family signature	116	142	1.1E-20	T	29-05-2022	IPR001424	Superoxide dismutase, copper/zinc binding domain
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	PANTHER	PTHR10003:SF31	SUPEROXIDE DISMUTASE [CU-ZN] 3	5	139	1.3E-38	T	29-05-2022	-	-
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	PANTHER	PTHR10003	SUPEROXIDE DISMUTASE  CU-ZN -RELATED	5	139	1.3E-38	T	29-05-2022	IPR024134	Superoxide dismutase (Cu/Zn) / superoxide dismutase copper chaperone
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	CDD	cd00305	Cu-Zn_Superoxide_Dismutase	8	134	9.42553E-41	T	29-05-2022	IPR001424	Superoxide dismutase, copper/zinc binding domain
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	ProSitePatterns	PS00332	Copper/Zinc superoxide dismutase signature 2.	126	137	-	T	29-05-2022	IPR018152	Superoxide dismutase, copper/zinc, binding site
+AXS01071.1	661c52bbb4b73c87f21a286e932c0a9b	142	SUPERFAMILY	SSF49329	Cu,Zn superoxide dismutase-like	5	139	3.66E-44	T	29-05-2022	IPR036423	Superoxide dismutase-like, copper/zinc binding domain superfamily
+AXS01129.1	487d7f94201756e97d21c57397454d4e	368	Gene3D	G3DSA:1.10.443.10	Intergrase catalytic core	177	348	5.0E-9	T	29-05-2022	IPR013762	Integrase-like, catalytic domain superfamily
+AXS01129.1	487d7f94201756e97d21c57397454d4e	368	CDD	cd00397	DNA_BRE_C	198	342	8.23444E-6	T	29-05-2022	-	-
+AXS01129.1	487d7f94201756e97d21c57397454d4e	368	Pfam	PF00589	Phage integrase family	189	345	5.7E-12	T	29-05-2022	IPR002104	Integrase, catalytic domain
+AXS01129.1	487d7f94201756e97d21c57397454d4e	368	SUPERFAMILY	SSF56349	DNA breaking-rejoining enzymes	183	343	7.36E-13	T	29-05-2022	IPR011010	DNA breaking-rejoining enzyme, catalytic core
+AXS01164.1	5bfe689039cecbbf9d3a11ea4fe0b224	324	Pfam	PF05789	Baculovirus VP1054 protein	19	306	1.7E-79	T	29-05-2022	IPR008416	Baculovirus VP1054
+AXS01046.1	f0c7341a73ff4e68d760869c30c2a780	192	Pfam	PF05006	Per os infectivity factor 3	45	184	5.2E-42	T	29-05-2022	IPR007703	Per os infectivity factor 3
+AXS01031.1	c4464aa720b4c30fcc30bac1a35fcbfa	454	Pfam	PF04913	Baculovirus Y142 protein	10	450	7.7E-107	T	29-05-2022	IPR006997	Baculovirus Y142 protein
+AXS01126.1	d95ee750b599c83d24725ea9ba41bff4	191	Pfam	PF05820	Baculoviridae AC81	12	183	2.0E-51	T	29-05-2022	IPR008563	Protein AC81, baculovirus
+AXS01045.1	ad3c190954657cf5ca96ce1b7e8c5ac3	193	Pfam	PF19181	Family of unknown function (DUF5863)	4	172	1.1E-61	T	29-05-2022	IPR043846	Protein of unknown function DUF5863
+AXS01127.1	897ac8a6fc34d554cc254e5da64d6c8b	294	MobiDBLite	mobidb-lite	consensus disorder prediction	240	265	-	T	29-05-2022	-	-
+AXS01127.1	897ac8a6fc34d554cc254e5da64d6c8b	294	Pfam	PF04700	Structural glycoprotein p40/gp41 conserved region	56	242	2.6E-61	T	29-05-2022	IPR006790	Baculovirus Gp41, glycoprotein
+AXS01127.1	897ac8a6fc34d554cc254e5da64d6c8b	294	MobiDBLite	mobidb-lite	consensus disorder prediction	240	258	-	T	29-05-2022	-	-
+AXS01102.1	2ffab249cc8fc63505e8a7a0774ad0ef	372	Pfam	PF05815	Baculovirus protein of unknown function (DUF844)	2	354	1.2E-87	T	29-05-2022	IPR008562	Autographa californica nuclear polyhedrosis virus (AcMNPV), C42
+AXS01116.1	c093e72598b38f81ae54e30b310c611f	324	Pfam	PF04501	Baculovirus major capsid protein VP39	16	127	8.8E-29	T	29-05-2022	IPR007589	Baculovirus major capsid protein VP39
+AXS01116.1	c093e72598b38f81ae54e30b310c611f	324	Pfam	PF04501	Baculovirus major capsid protein VP39	156	267	5.1E-14	T	29-05-2022	IPR007589	Baculovirus major capsid protein VP39
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	Pfam	PF00240	Ubiquitin family	3	74	3.2E-32	T	29-05-2022	IPR000626	Ubiquitin-like domain
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	Gene3D	G3DSA:3.10.20.90	-	1	81	8.0E-44	T	29-05-2022	-	-
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	PANTHER	PTHR10666	UBIQUITIN	1	76	2.1E-46	T	29-05-2022	-	-
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	ProSiteProfiles	PS50053	Ubiquitin domain profile.	1	76	30.234352	T	29-05-2022	IPR000626	Ubiquitin-like domain
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	SUPERFAMILY	SSF54236	Ubiquitin-like	1	76	9.35E-34	T	29-05-2022	IPR029071	Ubiquitin-like domain superfamily
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	ProSitePatterns	PS00299	Ubiquitin domain signature.	27	52	-	T	29-05-2022	IPR019954	Ubiquitin conserved site
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	PRINTS	PR00348	Ubiquitin signature	11	31	1.3E-31	T	29-05-2022	IPR019956	Ubiquitin domain
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	PRINTS	PR00348	Ubiquitin signature	32	52	1.3E-31	T	29-05-2022	IPR019956	Ubiquitin domain
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	PRINTS	PR00348	Ubiquitin signature	53	74	1.3E-31	T	29-05-2022	IPR019956	Ubiquitin domain
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	PANTHER	PTHR10666:SF364	-	1	76	2.1E-46	T	29-05-2022	-	-
+AXS01062.1	5f1348199f22fbb44d2d7a58376f373b	82	SMART	SM00213	ubq_7	1	72	7.1E-33	T	29-05-2022	IPR000626	Ubiquitin-like domain
+AXS01103.1	6b4b2a76c411e7f2710c55765be1d18b	58	MobiDBLite	mobidb-lite	consensus disorder prediction	1	58	-	T	29-05-2022	-	-
+AXS01103.1	6b4b2a76c411e7f2710c55765be1d18b	58	MobiDBLite	mobidb-lite	consensus disorder prediction	8	58	-	T	29-05-2022	-	-
+AXS01055.1	71e7fc1b0b87c757f1505b501c558caf	280	PANTHER	PTHR11183:SF100	GLYCOGENIN-2	2	254	2.6E-33	T	29-05-2022	-	-
+AXS01055.1	71e7fc1b0b87c757f1505b501c558caf	280	Pfam	PF01501	Glycosyl transferase family 8	10	249	6.1E-9	T	29-05-2022	IPR002495	Glycosyl transferase, family 8
+AXS01055.1	71e7fc1b0b87c757f1505b501c558caf	280	Gene3D	G3DSA:3.90.550.10	Spore Coat Polysaccharide Biosynthesis Protein SpsA; Chain A	1	272	1.2E-41	T	29-05-2022	IPR029044	Nucleotide-diphospho-sugar transferases
+AXS01055.1	71e7fc1b0b87c757f1505b501c558caf	280	SUPERFAMILY	SSF53448	Nucleotide-diphospho-sugar transferases	6	268	1.49E-35	T	29-05-2022	IPR029044	Nucleotide-diphospho-sugar transferases
+AXS01055.1	71e7fc1b0b87c757f1505b501c558caf	280	PANTHER	PTHR11183	GLYCOGENIN SUBFAMILY MEMBER	2	254	2.6E-33	T	29-05-2022	-	-
+AXS01134.1	ea5c693315f955a94a6ea8e164316895	637	Pfam	PF06771	Viral Desmoplakin N-terminus	4	78	3.2E-13	T	29-05-2022	IPR009615	Viral desmoplakin, N-terminal
+AXS01134.1	ea5c693315f955a94a6ea8e164316895	637	Coils	Coil	Coil	478	512	-	T	29-05-2022	-	-
+AXS01134.1	ea5c693315f955a94a6ea8e164316895	637	Coils	Coil	Coil	304	378	-	T	29-05-2022	-	-
+AXS01134.1	ea5c693315f955a94a6ea8e164316895	637	Coils	Coil	Coil	390	466	-	T	29-05-2022	-	-
+AXS01134.1	ea5c693315f955a94a6ea8e164316895	637	Coils	Coil	Coil	167	194	-	T	29-05-2022	-	-
+AXS01134.1	ea5c693315f955a94a6ea8e164316895	637	Coils	Coil	Coil	234	268	-	T	29-05-2022	-	-
+AXS01134.1	ea5c693315f955a94a6ea8e164316895	637	Coils	Coil	Coil	199	226	-	T	29-05-2022	-	-
+AXS01099.1	15bb8f15725b9a4c719af4d0e082f4ae	372	Pfam	PF04878	Baculovirus P48 protein	16	366	3.1E-123	T	29-05-2022	IPR006962	P48 protein, Baculovirus
+AXS01091.1	5d6697b9a351be364ae498344ab7014c	173	Gene3D	G3DSA:1.10.287.1490	-	8	169	7.4E-8	T	29-05-2022	-	-
+AXS01140.1	b4f82f3a2dcd1d12ed0ba4f84648e0a4	170	Pfam	PF03258	Baculovirus FP protein	25	161	3.8E-42	T	29-05-2022	IPR004941	Baculovirus FP protein
+AXS01151.1	9a9747299df98181b6bcb8a2ab47024a	867	Gene3D	G3DSA:3.40.390.80	-	130	253	5.3E-9	T	29-05-2022	-	-
+AXS01151.1	9a9747299df98181b6bcb8a2ab47024a	867	ProSiteProfiles	PS51723	Peptidase family M60 domain profile.	40	334	46.75185	T	29-05-2022	IPR031161	Peptidase family M60 domain
+AXS01151.1	9a9747299df98181b6bcb8a2ab47024a	867	SMART	SM01276	M60_like_2	40	335	1.1E-6	T	29-05-2022	IPR031161	Peptidase family M60 domain
+AXS01151.1	9a9747299df98181b6bcb8a2ab47024a	867	Pfam	PF13402	Peptidase M60, enhancin and enhancin-like	132	352	8.8E-9	T	29-05-2022	IPR031161	Peptidase family M60 domain
+AXS01110.1	32100306c85d9cc8bb46fda6391fcc6e	158	Pfam	PF05081	Protein of unknown function (DUF682)	5	152	2.3E-40	T	29-05-2022	IPR007773	Autographa californica nuclear polyhedrosis virus (AcMNPV), P18
+AXS01147.1	a7e2c4ab30208a1a68fd818f4d99c5fe	333	Pfam	PF10860	Protein of unknown function (DUF2661)	8	112	5.6E-17	T	29-05-2022	IPR020387	Autographa californica nuclear polyhedrosis virus (AcMNPV), Orf112
+AXS01107.1	f92f72a932bc6a6b333d6c69d4f13fe8	157	Pfam	PF04798	Baculovirus 19 kDa protein conserved region	21	156	5.3E-34	T	29-05-2022	IPR006883	Per os infectivity factor 4
+AXS01088.1	fa1c9b29445403a9c8f720b7d4a3f32a	176	Pfam	PF05073	Baculovirus P24 capsid protein	3	152	4.1E-41	T	29-05-2022	IPR007765	Baculovirus p24 capsid
