@@ -1,0 +1,49 @@
+rule all:
+    input:
+        "../results/sfgv-arg_proteome_dataset.csv",
+        "../results/ob_proteome_interproscan.txt"
+
+rule map_uniprot2ncbi:
+    input:
+        query="../resources/uniprot_spodoptera_frugiperda_granulovirus.fasta",
+        db_in="../resources/sfgv-arg_proteome.faa"
+    output:
+        search="../results/sfgv_uniprot2ncbi.tab"
+    shell:
+        """
+        makeblastdb -in {input.db_in} -dbtype prot -out database && \
+        blastp -query {input.query} -db database -max_target_seqs 1 -outfmt 6 -out {output.search} && \
+        rm database*
+        """
+
+rule merge_datasets:
+    input:
+        d1="../resources/sfgv01_data.csv",
+        d2="../resources/sfgv02_data.csv",
+        d3="../resources/sfgv03_data.csv"
+    output:
+        temp("consensus_table.csv")
+    shell:
+        """
+        ./create_proteins_table.py -d1 {input.d1} -d2 {input.d2} -d3 {input.d3} -o {output}
+        """
+
+rule convert_uniprot2ncbi:
+    input:
+        mappings="../results/sfgv_uniprot2ncbi.tab",
+        proteome="consensus_table.csv"
+    output:
+        "../results/sfgv-arg_proteome_dataset.csv"
+    shell:
+        """
+        ./convert_uniprot2ncbi.py -m {input.mappings} -p {input.proteome} -o {output}
+        """
+
+
+rule functional_annotation:
+    input:
+        "../results/ob_proteome.faa"
+    output:
+        "../results/ob_proteome_interproscan.txt"
+    shell:
+      "interproscan.sh --input {input} --outfile {output} --goterms --formats tsv"
