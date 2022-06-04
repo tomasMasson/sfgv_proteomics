@@ -44,14 +44,17 @@ def convert_uniprot2ncbi(mapping, proteome, output):
                  "ORF108"]
     data = data[~data["Protein name"].isin(drop_list)]
     # Save data
-    data.to_csv(f"{output}", index=False)
+    data.sort_values(by=["Accession"]).to_csv(f"{output}", index=False)
 
 
 # Command line interface
 @click.command()
-@click.option("-m", "--mappings")
-@click.option("-p", "--proteome")
-@click.option("-o", "--output")
+@click.option("-m", "--mappings",
+              help="Mappings from UniProt to NCBI identifiers")
+@click.option("-p", "--proteome",
+              help="Protein list to re-map identifiers")
+@click.option("-o", "--output",
+              help="Output file name")
 def cli(mappings, proteome, output):
     "Command line interface"
     convert_uniprot2ncbi(mappings, proteome, output)

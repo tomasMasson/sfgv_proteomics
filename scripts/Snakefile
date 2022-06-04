@@ -40,10 +40,27 @@ rule convert_uniprot2ncbi:
         """
 
 
+rule extract_ob_proteome:
+    input:
+        proteome="../resources/sfgv-arg_proteome.faa",
+        list="../results/sfgv-arg_proteome_dataset.csv"
+    output:
+        "../results/ob_proteome.faa"
+    shell:
+        """
+        ./extract_ob_proteome.py -p {input.proteome} -l {input.list} -o {output}
+        """
+
+
 rule functional_annotation:
     input:
         "../results/ob_proteome.faa"
+    params:
+        "-f tsv --tempdir temp/ --goterms --appl Pfam"
     output:
         "../results/ob_proteome_interproscan.txt"
     shell:
-      "interproscan.sh --input {input} --outfile {output} --goterms --formats tsv"
+      """
+      interproscan.sh {params} --input {input} --outfile {output} && \
+      rm temp -rf
+      """
