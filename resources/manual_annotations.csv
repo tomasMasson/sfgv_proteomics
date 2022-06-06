@@ -1,7 +1,7 @@
-AXS01170.1	IPR010336	Baculoviridae ME53	Expression/Replication
-AXS01097.1	IPR006871	ssDNA-binding protein, baculovirus	Expression/Replication
+AXS01170.1	IPR010336	Baculoviridae ME53	DNA metab
+AXS01097.1	IPR006871	ssDNA-binding protein, baculovirus	DNA metab
 AXS01108.1	IPR007938	Baculovirus occlusion-derived virus envelope, E25	Structural
-AXS01146.1	IPR010285	DNA helicase Pif1-like	Expression/Replication
+AXS01146.1	IPR010285	DNA helicase Pif1-like	DNA metab
 AXS01033.1	IPR006733	Baculovirus occlusion-derived virus envelope, E56	Structural
 AXS01083.1	IPR007663	Baculoviridae p74	Structural
 AXS01083.1	IPR013613	Baculoviridae p74 N-terminal	Structural
@@ -21,16 +21,16 @@ AXS01104.1	IPR007827	Protein of unknown function DUF694	DUF
 AXS01092.1	IPR007784	Per os infectivity factor	Structural
 AXS01160.1	IPR008573	Baculovirus U-box/Ring-like	Auxiliar
 AXS01150.1	IPR006934	Baculovirus occlusion-derived virus envelope, E66	Auxiliar
-AXS01065.1	IPR007975	Baculovirus pp39	Expression/Replication
+AXS01065.1	IPR007975	Baculovirus pp39	DNA metab
 AXS01135.1	IPR008005	Per os infectivity factor 6	Structural
 AXS01117.1	IPR007978	Baculovirus occlusion-derived virus envelope EC27	Auxiliar
 AXS01128.1	IPR009261	Autographa californica nuclear polyhedrosis virus (AcMNPV), Protein AC78	Structural
 AXS01030.1	IPR019655	Baculovirus occlusion-derived virus envelope, E18	Structural
 AXS01109.1	IPR007879	FAD-linked sulfhydryl oxidase	Auxiliar
-AXS01145.1	IPR034720	Viral alkaline exonuclease	Expression/Replication
+AXS01145.1	IPR034720	Viral alkaline exonuclease	DNA metab
 AXS01125.1	IPR013682	Baculovirus Vp91, capsid protein, N-terminal	Structural
 AXS01071.1	IPR001424	Superoxide dismutase, copper/zinc binding domain	Auxiliar
-AXS01129.1	IPR002104	Integrase, catalytic domain	Expression/Replication
+AXS01129.1	IPR002104	Integrase, catalytic domain	DNA metab
 AXS01164.1	IPR008416	Baculovirus VP1054	Structural
 AXS01046.1	IPR007703	Per os infectivity factor 3	Structural
 AXS01031.1	IPR006997	Baculovirus Y142 protein	Structural
@@ -44,7 +44,7 @@ AXS01062.1	IPR000626	Ubiquitin-like domain	Auxiliar
 AXS01055.1	IPR002495	Glycosyl transferase, family 8	Auxiliar
 AXS01134.1	IPR009615	Viral desmoplakin, N-terminal	Auxiliar
 AXS01099.1	IPR006962	P48 protein, Baculovirus	Structural
-AXS01140.1	IPR004941	Baculovirus FP protein	Expression/Replication
+AXS01140.1	IPR004941	Baculovirus FP protein	DNA metab
 AXS01151.1	IPR031161	Peptidase family M60 domain	Auxiliar
 AXS01110.1	IPR007773	Autographa californica nuclear polyhedrosis virus (AcMNPV), P18	Structural
 AXS01147.1	IPR020387	Autographa californica nuclear polyhedrosis virus (AcMNPV), Orf112	DUF
