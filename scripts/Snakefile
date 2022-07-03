@@ -1,7 +1,7 @@
 rule all:
     input:
         "../results/sfgv-arg_proteome_dataset.csv",
-        "../results/ob_proteome_interproscan.txt"
+        "../results/ob_proteome_annotation.tsv"
 
 rule map_uniprot2ncbi:
     input:
@@ -52,15 +52,17 @@ rule extract_ob_proteome:
         """
 
 
-rule functional_annotation:
+rule pfam_functional_annotation:
     input:
-        "../results/ob_proteome.faa"
-    params:
-        "-f tsv --tempdir temp/ --goterms --appl Pfam"
+        query="../results/ob_proteome.faa",
+        db="../resources/Pfam-A.hmm"
     output:
-        "../results/ob_proteome_interproscan.txt"
+        "../results/ob_proteome_annotation.tsv"
     shell:
-      """
-      interproscan.sh {params} --input {input} --outfile {output} && \
-      rm temp -rf
-      """
+        """
+        rm ../resources/Pfam-A.hmm.* && \
+        hmmpress {input.db} && \
+        hmmscan {input.db} {input.query} > temporal && \
+        ./create_pfam_table.py -i temporal -o {output} && \
+        rm temporal
+        """
