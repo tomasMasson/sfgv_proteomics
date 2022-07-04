@@ -55,7 +55,8 @@ rule extract_ob_proteome:
 rule pfam_functional_annotation:
     input:
         query="../results/ob_proteome.faa",
-        db="../resources/Pfam-A.hmm"
+        db="../resources/Pfam-A.hmm",
+        go="../resources/pfam2go"
     output:
         "../results/ob_proteome_annotation.tsv"
     shell:
@@ -63,6 +64,6 @@ rule pfam_functional_annotation:
         rm ../resources/Pfam-A.hmm.* && \
         hmmpress {input.db} && \
         hmmscan {input.db} {input.query} > temporal && \
-        ./create_pfam_table.py -i temporal -o {output} && \
+        ./create_pfam_table.py -i temporal -g {input.go} -o {output} && \
         rm temporal
         """
