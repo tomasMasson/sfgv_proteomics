@@ -3,31 +3,29 @@
 import click
 import pandas as pd
 import seaborn as sns
-import holoviews as hv
 import numpy as np
-hv.extension("matplotlib")
 import matplotlib.pyplot as plt
-from holoviews import opts
+import matplotlib.image as mpimg
 
 
-def plot_proteomic_data(annotations, abundances):
+def plot_proteomic_data(annotations, abundances, output):
     """
     Plot the functional groups, genomic and abundance distribution for proteomic data
     """
 
-    bars = hv.Bars(annotations, hv.Dimension("Functional Annotation"), "# Pfam Domains")
-    frequencies, edges = np.histogram(abundances, 10)
-    hist = hv.Histogram((edges, frequencies))
-    tem = hv.RGB.load_image('resources/sfgv_ob_tem.png')
-    sem = hv.RGB.load_image('resources/sfgv_ob_sem.png')
-    layout = hv.Layout(tem + sem + bars + hist).cols(2)
-    layout.opts(
-        opts.RGB(xaxis=None, yaxis=None),
-        opts.Bars(color="gray"),
-        opts.Histogram(facecolor="gray", xlabel="emPAI %VP39", ylabel="# OB Proteins"),
-            )
-    opts.defaults(opts.Layout(hspace=0.1, vspace=0.1))
-    hv.save(layout, "layout.svg", backend="matplotlib", dpi=600)
+    figure, axs = plt.subplots(nrows=2, ncols=2, figsize=(8, 8))
+    tem = plt.imread('../resources/sfgv_ob_tem.png')
+    axs[0, 0].imshow(tem)
+    axs[0, 0].axis("off")
+    sem = plt.imread('../resources/sfgv_ob_sem.png')
+    axs[0, 1].imshow(sem)
+    axs[0, 1].axis("off")
+    bars = sns.barplot(x="Annotation", y="# Pfam Domains",
+                       data=annotations, ax=axs[1, 0],
+                       palette="deep")
+    hist = sns.histplot(abundances, ax=axs[1, 1], color="black", bins=10)
+    plt.savefig(f"{output}.png")
+
 
 # Command line interface
 @click.command()
@@ -35,11 +33,9 @@ def plot_proteomic_data(annotations, abundances):
               help="Pfam functional annotations")
 @click.option("-p", "--protein_list",
               help="Protein list with abundance values")
-@click.option("-f", "--proteome",
-              help="Fasta file with protein positions")
 @click.option("-o", "--output",
               help="Output file")
-def cli(annotations, protein_list, proteome, output):
+def cli(annotations, protein_list, output):
     "Command line interface"
 
     names = ["Protein",
@@ -50,14 +46,16 @@ def cli(annotations, protein_list, proteome, output):
                       sep="\t",
                       names=names)
     g = ann.groupby("Annotation").size()
-    ann = list(zip(g.index, g.values))
+    # ann = list(zip(g.index, g.values))
+    ann = pd.DataFrame(data={"Annotation": g.index, "# Pfam Domains": g.values})
+    # ann = list(zip(g.index, g.values))
 
     df = pd.read_csv(protein_list)
     vp39 = float(df[df["Protein name"] == "Vp39"]["Average emPAI"])
     abund = df["Average emPAI"] * 100 / vp39
     abund = abund[abund <= 100]
 
-    plot_proteomic_data(ann, abund)
+    plot_proteomic_data(ann, abund, output)
 
 
 if __name__ == "__main__":

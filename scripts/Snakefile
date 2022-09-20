@@ -1,7 +1,8 @@
 rule all:
     input:
         "../results/sfgv-arg_proteome_dataset.csv",
-        "../results/ob_proteome_annotation.tsv"
+        "../results/ob_proteome_annotation.tsv",
+        "../results/figure1.png"
 
 rule map_uniprot2ncbi:
     input:
@@ -66,4 +67,16 @@ rule pfam_functional_annotation:
         hmmscan {input.db} {input.query} > temporal && \
         ./create_pfam_table.py -i temporal -g {input.go} -o {output} && \
         rm temporal
+        """
+        
+
+rule plot_figure1:
+    input:
+        annotations="../resources/manual_annotations.csv",
+        protein_list="../results/sfgv-arg_proteome_dataset.csv"
+    output:
+        "../results/figure1.png"
+    shell:
+        """
+        ../scripts/plot_proteomic_data.py --annotations {input.annotations} --protein_list {input.protein_list} --output ../results/figure1
         """
