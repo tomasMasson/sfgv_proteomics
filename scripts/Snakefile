@@ -78,5 +78,5 @@ rule plot_figure1:
         "../results/figure1.png"
     shell:
         """
-        ../scripts/plot_proteomic_data.py --annotations {input.annotations} --protein_list {input.protein_list} --output ../results/figure1
+        ./plot_proteomic_data.py --annotations {input.annotations} --protein_list {input.protein_list} --output ../results/figure1
         """
