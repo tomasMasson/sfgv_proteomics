@@ -2,7 +2,8 @@ rule all:
     input:
         "../results/sfgv-arg_proteome_dataset.csv",
         "../results/ob_proteome_annotation.tsv",
-        "../results/figure1.png"
+        "../results/figure1.png",
+        "../results/orf101_orthologs_refseq.aln.faa.treefile"
 
 rule map_uniprot2ncbi:
     input:
@@ -79,4 +80,46 @@ rule plot_figure1:
     shell:
         """
         ./plot_proteomic_data.py --annotations {input.annotations} --protein_list {input.protein_list} --output ../results/figure1
+        """
+
+rule jackhmmer_orf101:
+    input:
+        orf101="../resources/orf101_sfgv.faa",
+        db="../resources/baculoviridae_refseq_proteins.faa"
+    output:
+        "../results/orf101_jackhmmer_refseq_search.txt"
+    shell:
+        """
+        jackhmmer --tblout {output} {input.orf101} {input.db}
+        """
+
+rule extract_orf101_orthologs:
+    input:
+        sequences="../resources/baculoviridae_refseq_proteins.faa",
+        jackhmmer="../results/orf101_jackhmmer_refseq_search.txt"
+    output:
+        "../results/orf101_orthologs_refseq.faa"
+    shell:
+        """
+        ./extract_orthologs_jackhmmer.py -s {input.sequences} -j {input.jackhmmer} -o {output}
+        """
+
+rule align_orf101_orthologs:
+    input:
+        "../results/orf101_orthologs_refseq.faa"
+    output:
+        "../results/orf101_orthologs_refseq.aln.faa"
+    shell:
+        """
+        mafft {input} > {output}
+        """
+
+rule build_orf101_phylogeny:
+    input:
+        sequences="../results/orf101_orthologs_refseq.aln.faa"
+    output:
+        "../results/orf101_orthologs_refseq.aln.faa.treefile"
+    shell:
+        """
+        iqtree -s {input} -B 1000 -m JTT+F+R5
         """

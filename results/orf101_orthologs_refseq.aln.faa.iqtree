@@ -1,0 +1,517 @@
+IQ-TREE 2.2.0.3 COVID-edition built Aug  2 2022
+
+Input file name: ../results/orf101_orthologs_refseq.aln.faa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 998212
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 100 sequences with 420 amino-acid sites
+Number of constant sites: 96 (= 22.8571% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 96 (= 22.8571% of all sites)
+Number of parsimony informative sites: 230
+Number of distinct site patterns: 388
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+F+R5
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0513
+  pi(R) = 0.0671
+  pi(N) = 0.0959
+  pi(D) = 0.0627
+  pi(C) = 0.0226
+  pi(Q) = 0.0469
+  pi(E) = 0.0454
+  pi(G) = 0.0354
+  pi(H) = 0.0389
+  pi(I) = 0.0504
+  pi(L) = 0.0759
+  pi(K) = 0.0577
+  pi(M) = 0.0311
+  pi(F) = 0.0257
+  pi(P) = 0.0357
+  pi(S) = 0.0669
+  pi(T) = 0.0631
+  pi(W) = 0.0070
+  pi(Y) = 0.0578
+  pi(V) = 0.0624
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.0112,0.0930) (0.1390,0.3580) (0.1673,0.7264) (0.3015,0.7266) (0.3810,1.5974)
+
+ Category  Relative_rate  Proportion
+  1         0.0930         0.0112
+  2         0.3580         0.1390
+  3         0.7264         0.1673
+  4         0.7266         0.3015
+  5         1.5974         0.3810
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -16502.0674 (s.e. 863.9946)
+Unconstrained log-likelihood (without tree): -2483.0850
+Number of free parameters (#branches + #model parameters): 224
+Akaike information criterion (AIC) score: 33452.1347
+Corrected Akaike information criterion (AICc) score: 33969.0578
+Bayesian information criterion (BIC) score: 34357.1518
+
+Total tree length (sum of branch lengths): 65.5666
+Sum of internal branch lengths: 23.1802 (35.3536% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0024) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'YP_009121882.1_Spodoptera_frugiperda_granulovirus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--YP_009121882.1_Spodoptera_frugiperda_granulovirus
+|
+|     +--NP_059264.1_Xestia_c-nigrum_granulovirus
+|  +--| (86)
+|  |  +--YP_001649101.1_Helicoverpa_armigera_granulovirus
++--| (85)
+|  |  +**YP_003422459.1_Pseudalatia_unipuncta_granulovirus
+|  +--| (100)
+|     +**YP_009506180.1_Trichoplusia_ni_granulovirus_LBIV-12
+|
+|     +--YP_009249935.1_Mocis_latipes_granulovirus
+|  +--| (40)
+|  |  |                    +----YP_009513134.1_Agrotis_segetum_granulovirus
+|  |  |                 +--| (93)
+|  |  |                 |  +--NP_891938.1_Cryptophlebia_leucotreta_granulovirus
+|  |  |              +--| (64)
+|  |  |              |  |  +----YP_009330218.1_Plodia_interpunctella_granulovirus
+|  |  |              |  +--| (64)
+|  |  |              |     |     +--YP_654500.1_Choristoneura_fumiferana_granulovirus
+|  |  |              |     |  +--| (69)
+|  |  |              |     |  |  |  +--YP_009091931.1_Erinnyis_ello_granulovirus
+|  |  |              |     |  |  +--| (94)
+|  |  |              |     |  |     +--YP_009506026.1_Clostera_anastomosis_granulovirus_B
+|  |  |              |     +--| (57)
+|  |  |              |        +------NP_663258.1_Phthorimaea_operculella_granulovirus
+|  |  |           +--| (52)
+|  |  |           |  |                               +---YP_009133232.1_Lambdina_fiscellaria_nucleopolyhedrovirus
+|  |  |           |  |                            +--| (81)
+|  |  |           |  |                            |  +-------YP_009165718.1_Perigonia_lusca_single_nucleopolyhedrovirus
+|  |  |           |  |                         +--| (45)
+|  |  |           |  |                         |  |                    +---YP_008378331.1_Hemileuca_sp._nucleopolyhedrovirus
+|  |  |           |  |                         |  |                 +--| (100)
+|  |  |           |  |                         |  |                 |  +----YP_006607857.1_Apocheima_cinerarium_nucleopolyhedrovirus
+|  |  |           |  |                         |  |              +--| (100)
+|  |  |           |  |                         |  |              |  +------YP_001651025.1_Orgyia_leucostigma_nucleopolyhedrovirus
+|  |  |           |  |                         |  |           +--| (98)
+|  |  |           |  |                         |  |           |  +---YP_009001882.1_Buzura_suppressaria_nucleopolyhedrovirus
+|  |  |           |  |                         |  |        +--| (96)
+|  |  |           |  |                         |  |        |  +-------YP_002854727.1_Euproctis_pseudoconspersa_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     +--| (13)
+|  |  |           |  |                         |  |     |  |                    +--YP_002268046.1_Agrotis_ipsilon_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |                 +--| (98)
+|  |  |           |  |                         |  |     |  |                 |  +--YP_009112574.1_Agrotis_segetum_nucleopolyhedrovirus_B
+|  |  |           |  |                         |  |     |  |              +--| (77)
+|  |  |           |  |                         |  |     |  |              |  |    +**NP_613096.1_Mamestra_configurata_nucleopolyhedrovirus_A
+|  |  |           |  |                         |  |     |  |              |  +----| (100)
+|  |  |           |  |                         |  |     |  |              |       |  +**NP_689187.1_Mamestra_configurata_nucleopolyhedrovirus_B
+|  |  |           |  |                         |  |     |  |              |       +--| (100)
+|  |  |           |  |                         |  |     |  |              |          +**YP_009011077.1_Mamestra_brassicae_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |           +--| (82)
+|  |  |           |  |                         |  |     |  |           |  |  +--YP_529682.1_Agrotis_segetum_nucleopolyhedrovirus_A
+|  |  |           |  |                         |  |     |  |           |  +--| (76)
+|  |  |           |  |                         |  |     |  |           |     |     +**YP_002332711.1_Spodoptera_litura_nucleopolyhedrovirus_II
+|  |  |           |  |                         |  |     |  |           |     |  +--| (100)
+|  |  |           |  |                         |  |     |  |           |     |  |  +--YP_010087015.1_Spodoptera_eridania_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |           |     +--| (100)
+|  |  |           |  |                         |  |     |  |           |        +--NP_037771.1_Spodoptera_exigua_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |        +--| (84)
+|  |  |           |  |                         |  |     |  |        |  |  +--YP_009666667.1_Mythimna_unipuncta_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |        |  +--| (77)
+|  |  |           |  |                         |  |     |  |        |     |  +--YP_010086430.1_Spodoptera_exempta_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |        |     +--| (87)
+|  |  |           |  |                         |  |     |  |        |        +--YP_001036307.1_Spodoptera_frugiperda_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |     +--| (75)
+|  |  |           |  |                         |  |     |  |     |  +---------------YP_003517859.1_Lymantria_xylina_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  +--| (73)
+|  |  |           |  |                         |  |     |  |  |  |                         +--NP_047555.1_Bombyx_mori_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |                      +--| (99)
+|  |  |           |  |                         |  |     |  |  |  |                      |  +**NP_054034.1_Autographa_californica_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |                   +--| (57)
+|  |  |           |  |                         |  |     |  |  |  |                   |  |  +--YP_950855.1_Maruca_vitrata_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |                   |  +--| (58)
+|  |  |           |  |                         |  |     |  |  |  |                   |     +-----YP_009666495.1_Lonomia_obliqua_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |                +--| (95)
+|  |  |           |  |                         |  |     |  |  |  |                |  +--YP_007250417.1_Thysanoplusia_orichalcea_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             +--| (91)
+|  |  |           |  |                         |  |     |  |  |  |             |  |            +--YP_009118619.1_Condylorrhiza_vestigialis_MNPV
+|  |  |           |  |                         |  |     |  |  |  |             |  |         +--| (52)
+|  |  |           |  |                         |  |     |  |  |  |             |  |         |  +--NP_932613.1_Choristoneura_fumiferana_DEF_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             |  |      +--| (97)
+|  |  |           |  |                         |  |     |  |  |  |             |  |      |  |  +**YP_009316175.1_Anticarsia_gemmatalis_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             |  |      |  +--| (97)
+|  |  |           |  |                         |  |     |  |  |  |             |  |      |     +**YP_803398.1_Anticarsia_gemmatalis_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             |  |   +--| (97)
+|  |  |           |  |                         |  |     |  |  |  |             |  |   |  +--NP_203174.1_Epiphyas_postvittana_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             |  +---| (99)
+|  |  |           |  |                         |  |     |  |  |  |             |      |        +--YP_473334.1_Hyphantria_cunea_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             |      |     +--| (51)
+|  |  |           |  |                         |  |     |  |  |  |             |      |     |  |  +--NP_848316.1_Choristoneura_fumiferana_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             |      |     |  +**| (78)
+|  |  |           |  |                         |  |     |  |  |  |             |      |     |     +--YP_008378500.1_Choristoneura_rosaceana_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             |      |  +--| (68)
+|  |  |           |  |                         |  |     |  |  |  |             |      |  |  +--NP_046163.1_Orgyia_pseudotsugata_multiple_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |             |      +--| (56)
+|  |  |           |  |                         |  |     |  |  |  |             |         +--YP_001419676.1_Antheraea_pernyi_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |          +--| (89)
+|  |  |           |  |                         |  |     |  |  |  |          |  +-----YP_010086747.1_Cyclophragma_undans_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |       +--| (91)
+|  |  |           |  |                         |  |     |  |  |  |       |  +--YP_009255386.1_Catopsilia_pomona_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  |  +----| (94)
+|  |  |           |  |                         |  |     |  |  |  |  |    +---YP_009666651.1_Oxyplax_ochracea_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  |  |  +--| (97)
+|  |  |           |  |                         |  |     |  |  |     +---------YP_009186800.1_Sucra_jujuba_nucleopolyhedrovirus
+|  |  |           |  |                         |  |     |  +--| (42)
+|  |  |           |  |                         |  |     |     +-----------YP_009250087.1_Urbanus_proteus_nucleopolyhedrovirus
+|  |  |           |  |                         |  |  +--| (11)
+|  |  |           |  |                         |  |  |  +----------YP_009552256.1_Malacosoma_neustria_nucleopolyhedrovirus
+|  |  |           |  |                         |  +--| (49)
+|  |  |           |  |                         |     |               +--YP_009505920.1_Spodoptera_littoralis_nucleopolyhedrovirus
+|  |  |           |  |                         |     |     +---------| (100)
+|  |  |           |  |                         |     |     |         +--NP_258383.1_Spodoptera_litura_nucleopolyhedrovirus
+|  |  |           |  |                         |     |  +--| (46)
+|  |  |           |  |                         |     |  |  +-------YP_874295.1_Ectropis_obliqua_nucleopolyhedrovirus
+|  |  |           |  |                         |     +--| (40)
+|  |  |           |  |                         |        +------------YP_758435.1_Leucania_separata_nucleopolyhedrovirus
+|  |  |           |  |                      +--| (56)
+|  |  |           |  |                      |  |            +--NP_818748.1_Adoxophyes_honmai_nucleopolyhedrovirus
+|  |  |           |  |                      |  |         +--| (100)
+|  |  |           |  |                      |  |         |  +--YP_002300614.1_Adoxophyes_orana_nucleopolyhedrovirus
+|  |  |           |  |                      |  |  +------| (99)
+|  |  |           |  |                      |  |  |      +----YP_010086979.1_Cryptophlebia_peltastica_nucleopolyhedrovirus
+|  |  |           |  |                      |  +--| (55)
+|  |  |           |  |                      |     +--------YP_717648.1_Clanis_bilineata_nucleopolyhedrovirus
+|  |  |           |  |                   +--| (59)
+|  |  |           |  |                   |  +------YP_009552672.1_Operophtera_brumata_nucleopolyhedrovirus
+|  |  |           |  |              +----| (95)
+|  |  |           |  |              |    +---NP_203674.1_Helicoverpa_armigera_nucleopolyhedrovirus
+|  |  |           |  |           +**| (62)
+|  |  |           |  |           |  |                          +**YP_003422371.1_Pseudalatia_unipuncta_granulovirus
+|  |  |           |  |           |  |                       +**| (68)
+|  |  |           |  |           |  |                       |  +**YP_009506099.1_Trichoplusia_ni_granulovirus_LBIV-12
+|  |  |           |  |           |  |                    +--| (92)
+|  |  |           |  |           |  |                    |  |  +**NP_059182.1_Xestia_c-nigrum_granulovirus
+|  |  |           |  |           |  |                    |  +--| (99)
+|  |  |           |  |           |  |                    |     +**YP_001649014.1_Helicoverpa_armigera_granulovirus
+|  |  |           |  |           |  |                 +--| (94)
+|  |  |           |  |           |  |                 |  +--YP_009249869.1_Mocis_latipes_granulovirus
+|  |  |           |  |           |  |              +--| (98)
+|  |  |           |  |           |  |              |  |  +--YP_009121814.1_Spodoptera_frugiperda_granulovirus
+|  |  |           |  |           |  |              |  +--| (77)
+|  |  |           |  |           |  |              |     +--YP_009345753.1_Mythimna_unipuncta_granulovirus_B
+|  |  |           |  |           |  |           +--| (97)
+|  |  |           |  |           |  |           |  +---YP_001256982.1_Spodoptera_litura_granulovirus
+|  |  |           |  |           |  |    +------| (96)
+|  |  |           |  |           |  |    |      |                       +--NP_891883.1_Cryptophlebia_leucotreta_granulovirus
+|  |  |           |  |           |  |    |      |                    +--| (78)
+|  |  |           |  |           |  |    |      |                    |  +--YP_009330165.1_Plodia_interpunctella_granulovirus
+|  |  |           |  |           |  |    |      |                 +--| (78)
+|  |  |           |  |           |  |    |      |                 |  |  +--NP_148823.1_Cydia_pomonella_granulovirus
+|  |  |           |  |           |  |    |      |                 |  +--| (83)
+|  |  |           |  |           |  |    |      |                 |     |  +--YP_654449.1_Choristoneura_fumiferana_granulovirus
+|  |  |           |  |           |  |    |      |                 |     +--| (99)
+|  |  |           |  |           |  |    |      |                 |        +--YP_003429355.1_Artogeia_rapae_granulovirus
+|  |  |           |  |           |  |    |      |              +--| (64)
+|  |  |           |  |           |  |    |      |              |  |        +--YP_009229959.1_Cnaphalocrocis_medinalis_granulovirus
+|  |  |           |  |           |  |    |      |              |  |     +--| (100)
+|  |  |           |  |           |  |    |      |              |  |     |  +--NP_872483.1_Adoxophyes_orana_granulovirus
+|  |  |           |  |           |  |    |      |              |  |  +--| (96)
+|  |  |           |  |           |  |    |      |              |  |  |  |  +--YP_004376247.1_Clostera_anachoreta_granulovirus
+|  |  |           |  |           |  |    |      |              |  |  |  +--| (100)
+|  |  |           |  |           |  |    |      |              |  |  |     +--YP_008719989.1_Clostera_anastomosis_granulovirus_Henan
+|  |  |           |  |           |  |    |      |              |  +--| (89)
+|  |  |           |  |           |  |    |      |              |     +--YP_009182230.1_Diatraea_saccharalis_granulovirus
+|  |  |           |  |           |  |    |      |           +--| (79)
+|  |  |           |  |           |  |    |      |           |  |  +--YP_009091871.1_Erinnyis_ello_granulovirus
+|  |  |           |  |           |  |    |      |           |  +--| (100)
+|  |  |           |  |           |  |    |      |           |     +--YP_009505969.1_Clostera_anastomosis_granulovirus_B
+|  |  |           |  |           |  |    |      |        +--| (92)
+|  |  |           |  |           |  |    |      |        |  +--NP_663199.1_Phthorimaea_operculella_granulovirus
+|  |  |           |  |           |  |    |      |     +--| (85)
+|  |  |           |  |           |  |    |      |     |  +---YP_006908548.1_Epinotia_aporema_granulovirus
+|  |  |           |  |           |  |    |      |  +--| (94)
+|  |  |           |  |           |  |    |      |  |  +------YP_009513068.1_Agrotis_segetum_granulovirus
+|  |  |           |  |           |  |    |      +--| (88)
+|  |  |           |  |           |  |    |         +----NP_068250.1_Plutella_xylostella_granulovirus
+|  |  |           |  |           |  +----| (92)
+|  |  |           |  |           |       |                     +--YP_009505889.1_Spodoptera_littoralis_nucleopolyhedrovirus
+|  |  |           |  |           |       +---------------------| (100)
+|  |  |           |  |           |                             +**NP_258353.1_Spodoptera_litura_nucleopolyhedrovirus
+|  |  |           |  |   +-------| (98)
+|  |  |           |  |   |       +--------------YP_009230000.1_Cnaphalocrocis_medinalis_granulovirus
+|  |  |           |  +---| (62)
+|  |  |           |      +-------NP_872538.1_Adoxophyes_orana_granulovirus
+|  |  |        +--| (71)
+|  |  |        |  |  +----YP_003429408.1_Artogeia_rapae_granulovirus
+|  |  |        |  +--| (68)
+|  |  |        |     |  +--NP_148884.1_Cydia_pomonella_granulovirus
+|  |  |        |     +--| (75)
+|  |  |        |        |  +-----YP_006908603.1_Epinotia_aporema_granulovirus
+|  |  |        |        +--| (74)
+|  |  |        |           +-----YP_009182289.1_Diatraea_saccharalis_granulovirus
+|  |  |     +--| (70)
+|  |  |     |  +------YP_001257041.1_Spodoptera_litura_granulovirus
+|  |  |  +--| (85)
+|  |  |  |  +----YP_004376292.1_Clostera_anachoreta_granulovirus
+|  |  +--| (98)
+|  |     +-------NP_068302.1_Plutella_xylostella_granulovirus
++--| (40)
+   +--YP_009345824.1_Mythimna_unipuncta_granulovirus_B
+
+Tree in newick format:
+
+(YP_009121882.1_Spodoptera_frugiperda_granulovirus:0.2265235860,((NP_059264.1_Xestia_c-nigrum_granulovirus:0.0099981348,YP_001649101.1_Helicoverpa_armigera_granulovirus:0.0100024922)86:0.0360632056,(YP_003422459.1_Pseudalatia_unipuncta_granulovirus:0.0000010156,YP_009506180.1_Trichoplusia_ni_granulovirus_LBIV-12:0.0000023972)100:0.0815025397)85:0.1105085690,((YP_009249935.1_Mocis_latipes_granulovirus:0.2204695903,(((((((YP_009513134.1_Agrotis_segetum_granulovirus:0.7151704632,NP_891938.1_Cryptophlebia_leucotreta_granulovirus:0.3301261006)93:0.2073000519,(YP_009330218.1_Plodia_interpunctella_granulovirus:0.6308749382,((YP_654500.1_Choristoneura_fumiferana_granulovirus:0.4631508855,(YP_009091931.1_Erinnyis_ello_granulovirus:0.3379873428,YP_009506026.1_Clostera_anastomosis_granulovirus_B:0.2053475261)94:0.4246707824)69:0.2321243997,NP_663258.1_Phthorimaea_operculella_granulovirus:0.8801463616)57:0.2423143056)64:0.1296103219)64:0.2445876455,((((((((YP_009133232.1_Lambdina_fiscellaria_nucleopolyhedrovirus:0.5658640079,YP_009165718.1_Perigonia_lusca_single_nucleopolyhedrovirus:0.9862012945)81:0.2158300355,(((((((YP_008378331.1_Hemileuca_sp._nucleopolyhedrovirus:0.5697752692,YP_006607857.1_Apocheima_cinerarium_nucleopolyhedrovirus:0.6557923138)100:0.1728415312,YP_001651025.1_Orgyia_leucostigma_nucleopolyhedrovirus:0.8408963694)100:0.1029383028,YP_009001882.1_Buzura_suppressaria_nucleopolyhedrovirus:0.5164506198)98:0.1928565330,YP_002854727.1_Euproctis_pseudoconspersa_nucleopolyhedrovirus:1.0409048527)96:0.3495269182,(((((((YP_002268046.1_Agrotis_ipsilon_multiple_nucleopolyhedrovirus:0.1634916968,YP_009112574.1_Agrotis_segetum_nucleopolyhedrovirus_B:0.0439226224)98:0.1343054109,(NP_613096.1_Mamestra_configurata_nucleopolyhedrovirus_A:0.0000021569,(NP_689187.1_Mamestra_configurata_nucleopolyhedrovirus_B:0.0000010156,YP_009011077.1_Mamestra_brassicae_multiple_nucleopolyhedrovirus:0.0000010156)100:0.0481925478)100:0.6335630607)77:0.1083874704,(YP_529682.1_Agrotis_segetum_nucleopolyhedrovirus_A:0.4127628907,((YP_002332711.1_Spodoptera_litura_nucleopolyhedrovirus_II:0.0000023317,YP_010087015.1_Spodoptera_eridania_nucleopolyhedrovirus:0.0193818032)100:0.0589521851,NP_037771.1_Spodoptera_exigua_multiple_nucleopolyhedrovirus:0.1655870164)100:0.4598910370)76:0.0401024862)82:0.1382560143,(YP_009666667.1_Mythimna_unipuncta_nucleopolyhedrovirus:0.4538008772,(YP_010086430.1_Spodoptera_exempta_nucleopolyhedrovirus:0.2908596710,YP_001036307.1_Spodoptera_frugiperda_multiple_nucleopolyhedrovirus:0.4168145854)87:0.1780364069)77:0.0287427346)84:0.1654218933,YP_003517859.1_Lymantria_xylina_nucleopolyhedrovirus:1.9518888873)75:0.1117791887,((((((((NP_047555.1_Bombyx_mori_nucleopolyhedrovirus:0.0786850983,NP_054034.1_Autographa_californica_nucleopolyhedrovirus:0.0000010156)99:0.0588722679,(YP_950855.1_Maruca_vitrata_nucleopolyhedrovirus:0.0837219732,YP_009666495.1_Lonomia_obliqua_multiple_nucleopolyhedrovirus:0.8190337056)58:0.0273895954)57:0.0110956760,YP_007250417.1_Thysanoplusia_orichalcea_nucleopolyhedrovirus:0.1446077012)95:0.2118987570,((((YP_009118619.1_Condylorrhiza_vestigialis_MNPV:0.0531557809,NP_932613.1_Choristoneura_fumiferana_DEF_multiple_nucleopolyhedrovirus:0.0888062979)52:0.0359429320,(YP_009316175.1_Anticarsia_gemmatalis_multiple_nucleopolyhedrovirus:0.0000010156,YP_803398.1_Anticarsia_gemmatalis_nucleopolyhedrovirus:0.0000010156)97:0.0069923888)97:0.2427097063,NP_203174.1_Epiphyas_postvittana_nucleopolyhedrovirus:0.4547639867)97:0.1235034228,(((YP_473334.1_Hyphantria_cunea_nucleopolyhedrovirus:0.3767243725,(NP_848316.1_Choristoneura_fumiferana_multiple_nucleopolyhedrovirus:0.0612188332,YP_008378500.1_Choristoneura_rosaceana_nucleopolyhedrovirus:0.0969340480)78:0.0000025631)51:0.0606240021,NP_046163.1_Orgyia_pseudotsugata_multiple_nucleopolyhedrovirus:0.1400237625)68:0.0883712043,YP_001419676.1_Antheraea_pernyi_nucleopolyhedrovirus:0.1705805055)56:0.0289094827)99:0.5446434062)91:0.1215507608,YP_010086747.1_Cyclophragma_undans_nucleopolyhedrovirus:0.8042896937)89:0.1677617865,YP_009255386.1_Catopsilia_pomona_nucleopolyhedrovirus:0.4291715849)91:0.3729754294,YP_009666651.1_Oxyplax_ochracea_nucleopolyhedrovirus:0.5832492990)94:0.6733822517,YP_009186800.1_Sucra_jujuba_nucleopolyhedrovirus:1.2292751465)97:0.3674726057)73:0.0982312206,YP_009250087.1_Urbanus_proteus_nucleopolyhedrovirus:1.5224926733)42:0.2125218938)13:0.0786465961,YP_009552256.1_Malacosoma_neustria_nucleopolyhedrovirus:1.3806350077)11:0.0726303911,(((YP_009505920.1_Spodoptera_littoralis_nucleopolyhedrovirus:0.0467567828,NP_258383.1_Spodoptera_litura_nucleopolyhedrovirus:0.1576309353)100:1.2040728960,YP_874295.1_Ectropis_obliqua_nucleopolyhedrovirus:1.0373409061)46:0.1463359773,YP_758435.1_Leucania_separata_nucleopolyhedrovirus:1.5741801937)40:0.2462736426)49:0.2194286767)45:0.1162588800,(((NP_818748.1_Adoxophyes_honmai_nucleopolyhedrovirus:0.0172766088,YP_002300614.1_Adoxophyes_orana_nucleopolyhedrovirus:0.0405237675)100:0.3423000335,YP_010086979.1_Cryptophlebia_peltastica_nucleopolyhedrovirus:0.6655660984)99:0.8531902228,YP_717648.1_Clanis_bilineata_nucleopolyhedrovirus:1.1465175907)55:0.3698267958)56:0.1311209017,YP_009552672.1_Operophtera_brumata_nucleopolyhedrovirus:0.8673196437)59:0.2103049457,NP_203674.1_Helicoverpa_armigera_nucleopolyhedrovirus:0.4934540458)95:0.6670381591,(((((((YP_003422371.1_Pseudalatia_unipuncta_granulovirus:0.0000010156,YP_009506099.1_Trichoplusia_ni_granulovirus_LBIV-12:0.0000010156)68:0.0000024361,(NP_059182.1_Xestia_c-nigrum_granulovirus:0.0000023926,YP_001649014.1_Helicoverpa_armigera_granulovirus:0.0000010156)99:0.0120131118)92:0.0253766763,YP_009249869.1_Mocis_latipes_granulovirus:0.1127158679)94:0.0690629951,(YP_009121814.1_Spodoptera_frugiperda_granulovirus:0.1786515909,YP_009345753.1_Mythimna_unipuncta_granulovirus_B:0.0605422999)77:0.0723609514)98:0.4397284834,YP_001256982.1_Spodoptera_litura_granulovirus:0.5965701290)97:0.2497392508,((((((((NP_891883.1_Cryptophlebia_leucotreta_granulovirus:0.1021969808,YP_009330165.1_Plodia_interpunctella_granulovirus:0.2546675381)78:0.0546123544,(NP_148823.1_Cydia_pomonella_granulovirus:0.1567629628,(YP_654449.1_Choristoneura_fumiferana_granulovirus:0.3395423190,YP_003429355.1_Artogeia_rapae_granulovirus:0.2663267844)99:0.1185399160)83:0.0680158487)78:0.0421886374,(((YP_009229959.1_Cnaphalocrocis_medinalis_granulovirus:0.3630879264,NP_872483.1_Adoxophyes_orana_granulovirus:0.4747728334)100:0.1235367693,(YP_004376247.1_Clostera_anachoreta_granulovirus:0.0770137109,YP_008719989.1_Clostera_anastomosis_granulovirus_Henan:0.0832272000)100:0.4453328384)96:0.1155238224,YP_009182230.1_Diatraea_saccharalis_granulovirus:0.4142866143)89:0.0834083999)64:0.0372540207,(YP_009091871.1_Erinnyis_ello_granulovirus:0.0365547205,YP_009505969.1_Clostera_anastomosis_granulovirus_B:0.1525840841)100:0.3962499913)79:0.0457941178,NP_663199.1_Phthorimaea_operculella_granulovirus:0.2487189934)92:0.1884153760,YP_006908548.1_Epinotia_aporema_granulovirus:0.5640539446)85:0.2161344757,YP_009513068.1_Agrotis_segetum_granulovirus:0.9511630840)94:0.2247658502,NP_068250.1_Plutella_xylostella_granulovirus:0.6584681815)88:0.2064463660)96:0.8712657811,(YP_009505889.1_Spodoptera_littoralis_nucleopolyhedrovirus:0.0232218584,NP_258353.1_Spodoptera_litura_nucleopolyhedrovirus:0.0000025196)100:2.7024268930)92:0.6029540499)62:0.0000024764,YP_009230000.1_Cnaphalocrocis_medinalis_granulovirus:1.8070390892)98:1.0374513930,NP_872538.1_Adoxophyes_orana_granulovirus:1.0625208909)62:0.5260645389)52:0.0669005559,(YP_003429408.1_Artogeia_rapae_granulovirus:0.7114123530,(NP_148884.1_Cydia_pomonella_granulovirus:0.4581985004,(YP_006908603.1_Epinotia_aporema_granulovirus:0.7894010009,YP_009182289.1_Diatraea_saccharalis_granulovirus:0.7301028982)74:0.0913082312)75:0.1753354345)68:0.1391300971)71:0.1797525917,YP_001257041.1_Spodoptera_litura_granulovirus:0.8969918269)70:0.1731195633,YP_004376292.1_Clostera_anachoreta_granulovirus:0.6671167936)85:0.1098709858,NP_068302.1_Plutella_xylostella_granulovirus:1.0178722915)98:0.3647470328)40:0.0693764813,YP_009345824.1_Mythimna_unipuncta_granulovirus_B:0.2937815262)40:0.0240921473);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -16502.253997
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--YP_009121882.1_Spodoptera_frugiperda_granulovirus
+|
+|           +--NP_059264.1_Xestia_c-nigrum_granulovirus
+|        +--| (86)
+|        |  +--YP_001649101.1_Helicoverpa_armigera_granulovirus
+|     +--| (85)
+|     |  |  +--YP_003422459.1_Pseudalatia_unipuncta_granulovirus
+|     |  +--| (100)
+|     |     +--YP_009506180.1_Trichoplusia_ni_granulovirus_LBIV-12
+|  +--| (59)
+|  |  +--YP_009249935.1_Mocis_latipes_granulovirus
++--| (52)
+|  +--YP_009345824.1_Mythimna_unipuncta_granulovirus_B
+|
+|                    +-----YP_009513134.1_Agrotis_segetum_granulovirus
+|                 +--| (93)
+|                 |  +--NP_891938.1_Cryptophlebia_leucotreta_granulovirus
+|              +--| (64)
+|              |  |  +----YP_009330218.1_Plodia_interpunctella_granulovirus
+|              |  +--| (64)
+|              |     |     +--YP_654500.1_Choristoneura_fumiferana_granulovirus
+|              |     |  +--| (69)
+|              |     |  |  |  +--YP_009091931.1_Erinnyis_ello_granulovirus
+|              |     |  |  +--| (94)
+|              |     |  |     +--YP_009506026.1_Clostera_anastomosis_granulovirus_B
+|              |     +--| (57)
+|              |        +------NP_663258.1_Phthorimaea_operculella_granulovirus
+|           +--| (52)
+|           |  |                               +----YP_009133232.1_Lambdina_fiscellaria_nucleopolyhedrovirus
+|           |  |                            +--| (81)
+|           |  |                            |  +-------YP_009165718.1_Perigonia_lusca_single_nucleopolyhedrovirus
+|           |  |                         +--| (45)
+|           |  |                         |  |                    +---YP_008378331.1_Hemileuca_sp._nucleopolyhedrovirus
+|           |  |                         |  |                 +--| (100)
+|           |  |                         |  |                 |  +----YP_006607857.1_Apocheima_cinerarium_nucleopolyhedrovirus
+|           |  |                         |  |              +--| (100)
+|           |  |                         |  |              |  +------YP_001651025.1_Orgyia_leucostigma_nucleopolyhedrovirus
+|           |  |                         |  |           +--| (98)
+|           |  |                         |  |           |  +---YP_009001882.1_Buzura_suppressaria_nucleopolyhedrovirus
+|           |  |                         |  |        +--| (96)
+|           |  |                         |  |        |  +--------YP_002854727.1_Euproctis_pseudoconspersa_nucleopolyhedrovirus
+|           |  |                         |  |     +--| (18)
+|           |  |                         |  |     |  +----------YP_009552256.1_Malacosoma_neustria_nucleopolyhedrovirus
+|           |  |                         |  |  +--| (26)
+|           |  |                         |  |  |  |               +--YP_009505920.1_Spodoptera_littoralis_nucleopolyhedrovirus
+|           |  |                         |  |  |  |     +---------| (100)
+|           |  |                         |  |  |  |     |         +--NP_258383.1_Spodoptera_litura_nucleopolyhedrovirus
+|           |  |                         |  |  |  |  +--| (46)
+|           |  |                         |  |  |  |  |  +-------YP_874295.1_Ectropis_obliqua_nucleopolyhedrovirus
+|           |  |                         |  |  |  +--| (40)
+|           |  |                         |  |  |     +------------YP_758435.1_Leucania_separata_nucleopolyhedrovirus
+|           |  |                         |  +--| (49)
+|           |  |                         |     |                    +--YP_002268046.1_Agrotis_ipsilon_multiple_nucleopolyhedrovirus
+|           |  |                         |     |                 +--| (98)
+|           |  |                         |     |                 |  +--YP_009112574.1_Agrotis_segetum_nucleopolyhedrovirus_B
+|           |  |                         |     |              +--| (77)
+|           |  |                         |     |              |  |    +--NP_613096.1_Mamestra_configurata_nucleopolyhedrovirus_A
+|           |  |                         |     |              |  +----| (100)
+|           |  |                         |     |              |       |  +--NP_689187.1_Mamestra_configurata_nucleopolyhedrovirus_B
+|           |  |                         |     |              |       +--| (100)
+|           |  |                         |     |              |          +--YP_009011077.1_Mamestra_brassicae_multiple_nucleopolyhedrovirus
+|           |  |                         |     |           +--| (82)
+|           |  |                         |     |           |  |  +--YP_529682.1_Agrotis_segetum_nucleopolyhedrovirus_A
+|           |  |                         |     |           |  +--| (76)
+|           |  |                         |     |           |     |     +--YP_002332711.1_Spodoptera_litura_nucleopolyhedrovirus_II
+|           |  |                         |     |           |     |  +--| (100)
+|           |  |                         |     |           |     |  |  +--YP_010087015.1_Spodoptera_eridania_nucleopolyhedrovirus
+|           |  |                         |     |           |     +--| (100)
+|           |  |                         |     |           |        +--NP_037771.1_Spodoptera_exigua_multiple_nucleopolyhedrovirus
+|           |  |                         |     |        +--| (84)
+|           |  |                         |     |        |  |  +--YP_009666667.1_Mythimna_unipuncta_nucleopolyhedrovirus
+|           |  |                         |     |        |  +--| (77)
+|           |  |                         |     |        |     |  +--YP_010086430.1_Spodoptera_exempta_nucleopolyhedrovirus
+|           |  |                         |     |        |     +--| (87)
+|           |  |                         |     |        |        +--YP_001036307.1_Spodoptera_frugiperda_multiple_nucleopolyhedrovirus
+|           |  |                         |     |     +--| (75)
+|           |  |                         |     |     |  +---------------YP_003517859.1_Lymantria_xylina_nucleopolyhedrovirus
+|           |  |                         |     |  +--| (73)
+|           |  |                         |     |  |  |                         +--NP_047555.1_Bombyx_mori_nucleopolyhedrovirus
+|           |  |                         |     |  |  |                      +--| (99)
+|           |  |                         |     |  |  |                      |  +--NP_054034.1_Autographa_californica_nucleopolyhedrovirus
+|           |  |                         |     |  |  |                   +--| (57)
+|           |  |                         |     |  |  |                   |  |  +--YP_950855.1_Maruca_vitrata_nucleopolyhedrovirus
+|           |  |                         |     |  |  |                   |  +--| (58)
+|           |  |                         |     |  |  |                   |     +------YP_009666495.1_Lonomia_obliqua_multiple_nucleopolyhedrovirus
+|           |  |                         |     |  |  |                +--| (95)
+|           |  |                         |     |  |  |                |  +--YP_007250417.1_Thysanoplusia_orichalcea_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             +--| (91)
+|           |  |                         |     |  |  |             |  |            +--YP_009118619.1_Condylorrhiza_vestigialis_MNPV
+|           |  |                         |     |  |  |             |  |         +--| (52)
+|           |  |                         |     |  |  |             |  |         |  +--NP_932613.1_Choristoneura_fumiferana_DEF_multiple_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             |  |      +--| (97)
+|           |  |                         |     |  |  |             |  |      |  |  +--YP_009316175.1_Anticarsia_gemmatalis_multiple_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             |  |      |  +--| (97)
+|           |  |                         |     |  |  |             |  |      |     +--YP_803398.1_Anticarsia_gemmatalis_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             |  |   +--| (97)
+|           |  |                         |     |  |  |             |  |   |  +--NP_203174.1_Epiphyas_postvittana_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             |  +---| (99)
+|           |  |                         |     |  |  |             |      |        +--YP_473334.1_Hyphantria_cunea_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             |      |     +--| (51)
+|           |  |                         |     |  |  |             |      |     |  |  +--NP_848316.1_Choristoneura_fumiferana_multiple_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             |      |     |  +--| (78)
+|           |  |                         |     |  |  |             |      |     |     +--YP_008378500.1_Choristoneura_rosaceana_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             |      |  +--| (68)
+|           |  |                         |     |  |  |             |      |  |  +--NP_046163.1_Orgyia_pseudotsugata_multiple_nucleopolyhedrovirus
+|           |  |                         |     |  |  |             |      +--| (56)
+|           |  |                         |     |  |  |             |         +--YP_001419676.1_Antheraea_pernyi_nucleopolyhedrovirus
+|           |  |                         |     |  |  |          +--| (89)
+|           |  |                         |     |  |  |          |  +-----YP_010086747.1_Cyclophragma_undans_nucleopolyhedrovirus
+|           |  |                         |     |  |  |       +--| (91)
+|           |  |                         |     |  |  |       |  +--YP_009255386.1_Catopsilia_pomona_nucleopolyhedrovirus
+|           |  |                         |     |  |  |  +----| (94)
+|           |  |                         |     |  |  |  |    +---YP_009666651.1_Oxyplax_ochracea_nucleopolyhedrovirus
+|           |  |                         |     |  |  +--| (97)
+|           |  |                         |     |  |     +---------YP_009186800.1_Sucra_jujuba_nucleopolyhedrovirus
+|           |  |                         |     +--| (42)
+|           |  |                         |        +------------YP_009250087.1_Urbanus_proteus_nucleopolyhedrovirus
+|           |  |                      +--| (56)
+|           |  |                      |  |            +--NP_818748.1_Adoxophyes_honmai_nucleopolyhedrovirus
+|           |  |                      |  |         +--| (100)
+|           |  |                      |  |         |  +--YP_002300614.1_Adoxophyes_orana_nucleopolyhedrovirus
+|           |  |                      |  |  +------| (99)
+|           |  |                      |  |  |      +----YP_010086979.1_Cryptophlebia_peltastica_nucleopolyhedrovirus
+|           |  |                      |  +--| (55)
+|           |  |                      |     +--------YP_717648.1_Clanis_bilineata_nucleopolyhedrovirus
+|           |  |                   +--| (59)
+|           |  |                   |  +------YP_009552672.1_Operophtera_brumata_nucleopolyhedrovirus
+|           |  |              +----| (95)
+|           |  |              |    +---NP_203674.1_Helicoverpa_armigera_nucleopolyhedrovirus
+|           |  |           +--| (62)
+|           |  |           |  |                          +--YP_003422371.1_Pseudalatia_unipuncta_granulovirus
+|           |  |           |  |                       +--| (68)
+|           |  |           |  |                       |  +--YP_009506099.1_Trichoplusia_ni_granulovirus_LBIV-12
+|           |  |           |  |                    +--| (92)
+|           |  |           |  |                    |  |  +--NP_059182.1_Xestia_c-nigrum_granulovirus
+|           |  |           |  |                    |  +--| (99)
+|           |  |           |  |                    |     +--YP_001649014.1_Helicoverpa_armigera_granulovirus
+|           |  |           |  |                 +--| (94)
+|           |  |           |  |                 |  +--YP_009249869.1_Mocis_latipes_granulovirus
+|           |  |           |  |              +--| (98)
+|           |  |           |  |              |  |  +--YP_009121814.1_Spodoptera_frugiperda_granulovirus
+|           |  |           |  |              |  +--| (77)
+|           |  |           |  |              |     +--YP_009345753.1_Mythimna_unipuncta_granulovirus_B
+|           |  |           |  |           +--| (97)
+|           |  |           |  |           |  +----YP_001256982.1_Spodoptera_litura_granulovirus
+|           |  |           |  |    +------| (96)
+|           |  |           |  |    |      |                       +--NP_891883.1_Cryptophlebia_leucotreta_granulovirus
+|           |  |           |  |    |      |                    +--| (78)
+|           |  |           |  |    |      |                    |  +--YP_009330165.1_Plodia_interpunctella_granulovirus
+|           |  |           |  |    |      |                 +--| (78)
+|           |  |           |  |    |      |                 |  |  +--NP_148823.1_Cydia_pomonella_granulovirus
+|           |  |           |  |    |      |                 |  +--| (83)
+|           |  |           |  |    |      |                 |     |  +--YP_654449.1_Choristoneura_fumiferana_granulovirus
+|           |  |           |  |    |      |                 |     +--| (99)
+|           |  |           |  |    |      |                 |        +--YP_003429355.1_Artogeia_rapae_granulovirus
+|           |  |           |  |    |      |              +--| (64)
+|           |  |           |  |    |      |              |  |        +--YP_009229959.1_Cnaphalocrocis_medinalis_granulovirus
+|           |  |           |  |    |      |              |  |     +--| (100)
+|           |  |           |  |    |      |              |  |     |  +---NP_872483.1_Adoxophyes_orana_granulovirus
+|           |  |           |  |    |      |              |  |  +--| (96)
+|           |  |           |  |    |      |              |  |  |  |  +--YP_004376247.1_Clostera_anachoreta_granulovirus
+|           |  |           |  |    |      |              |  |  |  +--| (100)
+|           |  |           |  |    |      |              |  |  |     +--YP_008719989.1_Clostera_anastomosis_granulovirus_Henan
+|           |  |           |  |    |      |              |  +--| (89)
+|           |  |           |  |    |      |              |     +--YP_009182230.1_Diatraea_saccharalis_granulovirus
+|           |  |           |  |    |      |           +--| (79)
+|           |  |           |  |    |      |           |  |  +--YP_009091871.1_Erinnyis_ello_granulovirus
+|           |  |           |  |    |      |           |  +--| (100)
+|           |  |           |  |    |      |           |     +--YP_009505969.1_Clostera_anastomosis_granulovirus_B
+|           |  |           |  |    |      |        +--| (92)
+|           |  |           |  |    |      |        |  +--NP_663199.1_Phthorimaea_operculella_granulovirus
+|           |  |           |  |    |      |     +--| (85)
+|           |  |           |  |    |      |     |  +---YP_006908548.1_Epinotia_aporema_granulovirus
+|           |  |           |  |    |      |  +--| (94)
+|           |  |           |  |    |      |  |  +-------YP_009513068.1_Agrotis_segetum_granulovirus
+|           |  |           |  |    |      +--| (88)
+|           |  |           |  |    |         +----NP_068250.1_Plutella_xylostella_granulovirus
+|           |  |           |  +----| (92)
+|           |  |           |       |                      +--YP_009505889.1_Spodoptera_littoralis_nucleopolyhedrovirus
+|           |  |           |       +----------------------| (100)
+|           |  |           |                              +--NP_258353.1_Spodoptera_litura_nucleopolyhedrovirus
+|           |  |   +-------| (98)
+|           |  |   |       +--------------YP_009230000.1_Cnaphalocrocis_medinalis_granulovirus
+|           |  +---| (62)
+|           |      +--------NP_872538.1_Adoxophyes_orana_granulovirus
+|        +--| (71)
+|        |  |  +-----YP_003429408.1_Artogeia_rapae_granulovirus
+|        |  +--| (68)
+|        |     |  +--NP_148884.1_Cydia_pomonella_granulovirus
+|        |     +--| (75)
+|        |        |  +-----YP_006908603.1_Epinotia_aporema_granulovirus
+|        |        +--| (74)
+|        |           +-----YP_009182289.1_Diatraea_saccharalis_granulovirus
+|     +--| (70)
+|     |  +------YP_001257041.1_Spodoptera_litura_granulovirus
+|  +--| (85)
+|  |  +-----YP_004376292.1_Clostera_anachoreta_granulovirus
++--| (98)
+   +-------NP_068302.1_Plutella_xylostella_granulovirus
+
+
+Consensus tree in newick format: 
+
+(YP_009121882.1_Spodoptera_frugiperda_granulovirus:0.1753238436,((((NP_059264.1_Xestia_c-nigrum_granulovirus:0.0100274260,YP_001649101.1_Helicoverpa_armigera_granulovirus:0.0097877606)86:0.0303745939,(YP_003422459.1_Pseudalatia_unipuncta_granulovirus:0.0000021650,YP_009506180.1_Trichoplusia_ni_granulovirus_LBIV-12:0.0000021650)100:0.0850199942)85:0.0856253340,YP_009249935.1_Mocis_latipes_granulovirus:0.2649646644)59:0.0888052168,YP_009345824.1_Mythimna_unipuncta_granulovirus_B:0.2746433637)52:0.0383670095,(((((((YP_009513134.1_Agrotis_segetum_granulovirus:0.7084661844,NP_891938.1_Cryptophlebia_leucotreta_granulovirus:0.3279257257)93:0.1996090212,(YP_009330218.1_Plodia_interpunctella_granulovirus:0.6248418121,((YP_654500.1_Choristoneura_fumiferana_granulovirus:0.4475215067,(YP_009091931.1_Erinnyis_ello_granulovirus:0.3313325537,YP_009506026.1_Clostera_anastomosis_granulovirus_B:0.2068098643)94:0.4236575250)69:0.2238461307,NP_663258.1_Phthorimaea_operculella_granulovirus:0.8844268757)57:0.2464309277)64:0.1278175493)64:0.2374431391,((((((((YP_009133232.1_Lambdina_fiscellaria_nucleopolyhedrovirus:0.5927196835,YP_009165718.1_Perigonia_lusca_single_nucleopolyhedrovirus:0.9544011678)81:0.1495961015,(((((((YP_008378331.1_Hemileuca_sp._nucleopolyhedrovirus:0.5595265115,YP_006607857.1_Apocheima_cinerarium_nucleopolyhedrovirus:0.6561469621)100:0.1630033501,YP_001651025.1_Orgyia_leucostigma_nucleopolyhedrovirus:0.8537610133)100:0.1037502495,YP_009001882.1_Buzura_suppressaria_nucleopolyhedrovirus:0.5132090440)98:0.1519538737,YP_002854727.1_Euproctis_pseudoconspersa_nucleopolyhedrovirus:1.0571726765)96:0.3599164744,YP_009552256.1_Malacosoma_neustria_nucleopolyhedrovirus:1.2938710272)18:0.0129286634,(((YP_009505920.1_Spodoptera_littoralis_nucleopolyhedrovirus:0.0482994761,NP_258383.1_Spodoptera_litura_nucleopolyhedrovirus:0.1552723306)100:1.2028007971,YP_874295.1_Ectropis_obliqua_nucleopolyhedrovirus:1.0352509703)46:0.1260195785,YP_758435.1_Leucania_separata_nucleopolyhedrovirus:1.5681757960)40:0.2534007169)26:0.2043547328,(((((((YP_002268046.1_Agrotis_ipsilon_multiple_nucleopolyhedrovirus:0.1637346127,YP_009112574.1_Agrotis_segetum_nucleopolyhedrovirus_B:0.0420141391)98:0.1327139922,(NP_613096.1_Mamestra_configurata_nucleopolyhedrovirus_A:0.0000023650,(NP_689187.1_Mamestra_configurata_nucleopolyhedrovirus_B:0.0000021650,YP_009011077.1_Mamestra_brassicae_multiple_nucleopolyhedrovirus:0.0000021650)100:0.0479849458)100:0.6307661831)77:0.1083662555,(YP_529682.1_Agrotis_segetum_nucleopolyhedrovirus_A:0.4072894514,((YP_002332711.1_Spodoptera_litura_nucleopolyhedrovirus_II:0.0000022714,YP_010087015.1_Spodoptera_eridania_nucleopolyhedrovirus:0.0192709085)100:0.0580694400,NP_037771.1_Spodoptera_exigua_multiple_nucleopolyhedrovirus:0.1650760337)100:0.4574812442)76:0.0400185992)82:0.1337653564,(YP_009666667.1_Mythimna_unipuncta_nucleopolyhedrovirus:0.4492544611,(YP_010086430.1_Spodoptera_exempta_nucleopolyhedrovirus:0.2917298396,YP_001036307.1_Spodoptera_frugiperda_multiple_nucleopolyhedrovirus:0.4100450589)87:0.1802941743)77:0.0301644469)84:0.1886718459,YP_003517859.1_Lymantria_xylina_nucleopolyhedrovirus:1.8982210902)75:0.0872528078,((((((((NP_047555.1_Bombyx_mori_nucleopolyhedrovirus:0.0777555114,NP_054034.1_Autographa_californica_nucleopolyhedrovirus:0.0000021650)99:0.0583117496,(YP_950855.1_Maruca_vitrata_nucleopolyhedrovirus:0.0825714313,YP_009666495.1_Lonomia_obliqua_multiple_nucleopolyhedrovirus:0.8102038363)58:0.0270697465)57:0.0109947412,YP_007250417.1_Thysanoplusia_orichalcea_nucleopolyhedrovirus:0.1428069345)95:0.2104198254,((((YP_009118619.1_Condylorrhiza_vestigialis_MNPV:0.0524287514,NP_932613.1_Choristoneura_fumiferana_DEF_multiple_nucleopolyhedrovirus:0.0875871047)52:0.0355061752,(YP_009316175.1_Anticarsia_gemmatalis_multiple_nucleopolyhedrovirus:0.0000021650,YP_803398.1_Anticarsia_gemmatalis_nucleopolyhedrovirus:0.0000021650)97:0.0068434978)97:0.2396146246,NP_203174.1_Epiphyas_postvittana_nucleopolyhedrovirus:0.4510554897)97:0.1206176430,(((YP_473334.1_Hyphantria_cunea_nucleopolyhedrovirus:0.3707745335,(NP_848316.1_Choristoneura_fumiferana_multiple_nucleopolyhedrovirus:0.0603909573,YP_008378500.1_Choristoneura_rosaceana_nucleopolyhedrovirus:0.0955869608)78:0.0001583774)51:0.0593164764,NP_046163.1_Orgyia_pseudotsugata_multiple_nucleopolyhedrovirus:0.1381020458)68:0.0881119442,YP_001419676.1_Antheraea_pernyi_nucleopolyhedrovirus:0.1672352532)56:0.0292954186)99:0.5389557715)91:0.1210007289,YP_010086747.1_Cyclophragma_undans_nucleopolyhedrovirus:0.7944746717)89:0.1678802333,YP_009255386.1_Catopsilia_pomona_nucleopolyhedrovirus:0.4220046871)91:0.3657442753,YP_009666651.1_Oxyplax_ochracea_nucleopolyhedrovirus:0.5739941834)94:0.6671674567,YP_009186800.1_Sucra_jujuba_nucleopolyhedrovirus:1.2080445496)97:0.3831768653)73:0.1193932093,YP_009250087.1_Urbanus_proteus_nucleopolyhedrovirus:1.5186792389)42:0.1617208824)49:0.2239725247)45:0.1562855277,(((NP_818748.1_Adoxophyes_honmai_nucleopolyhedrovirus:0.0172600233,YP_002300614.1_Adoxophyes_orana_nucleopolyhedrovirus:0.0398101195)100:0.3236218872,YP_010086979.1_Cryptophlebia_peltastica_nucleopolyhedrovirus:0.6706698867)99:0.8642472133,YP_717648.1_Clanis_bilineata_nucleopolyhedrovirus:1.1316412190)55:0.3799489722)56:0.1254623974,YP_009552672.1_Operophtera_brumata_nucleopolyhedrovirus:0.8755067418)59:0.1970108261,NP_203674.1_Helicoverpa_armigera_nucleopolyhedrovirus:0.4747626057)95:0.6542280055,(((((((YP_003422371.1_Pseudalatia_unipuncta_granulovirus:0.0000021650,YP_009506099.1_Trichoplusia_ni_granulovirus_LBIV-12:0.0000021650)68:0.0000021650,(NP_059182.1_Xestia_c-nigrum_granulovirus:0.0000021650,YP_001649014.1_Helicoverpa_armigera_granulovirus:0.0000021650)99:0.0118694391)92:0.0251266280,YP_009249869.1_Mocis_latipes_granulovirus:0.1112511737)94:0.0679023726,(YP_009121814.1_Spodoptera_frugiperda_granulovirus:0.1762642056,YP_009345753.1_Mythimna_unipuncta_granulovirus_B:0.0598432081)77:0.0716645136)98:0.4380849039,YP_001256982.1_Spodoptera_litura_granulovirus:0.5905315360)97:0.2341173258,((((((((NP_891883.1_Cryptophlebia_leucotreta_granulovirus:0.1007011534,YP_009330165.1_Plodia_interpunctella_granulovirus:0.2509410004)78:0.0538618445,(NP_148823.1_Cydia_pomonella_granulovirus:0.1541837073,(YP_654449.1_Choristoneura_fumiferana_granulovirus:0.3347272483,YP_003429355.1_Artogeia_rapae_granulovirus:0.2621612709)99:0.1170777454)83:0.0672669947)78:0.0418656952,(((YP_009229959.1_Cnaphalocrocis_medinalis_granulovirus:0.3584743666,NP_872483.1_Adoxophyes_orana_granulovirus:0.4683065074)100:0.1221577568,(YP_004376247.1_Clostera_anachoreta_granulovirus:0.0761621364,YP_008719989.1_Clostera_anastomosis_granulovirus_Henan:0.0819523883)100:0.4391154740)96:0.1134542253,YP_009182230.1_Diatraea_saccharalis_granulovirus:0.4077015196)89:0.0828818954)64:0.0369284543,(YP_009091871.1_Erinnyis_ello_granulovirus:0.0361047302,YP_009505969.1_Clostera_anastomosis_granulovirus_B:0.1504763754)100:0.3902225541)79:0.0450727227,NP_663199.1_Phthorimaea_operculella_granulovirus:0.2451459593)92:0.1873115134,YP_006908548.1_Epinotia_aporema_granulovirus:0.5556438747)85:0.2148509970,YP_009513068.1_Agrotis_segetum_granulovirus:0.9359091102)94:0.2251323261,NP_068250.1_Plutella_xylostella_granulovirus:0.6511277166)88:0.2119607588)96:0.8560467686,(YP_009505889.1_Spodoptera_littoralis_nucleopolyhedrovirus:0.0231191324,NP_258353.1_Spodoptera_litura_nucleopolyhedrovirus:0.0000022666)100:2.6781120071)92:0.6420238926)62:0.0000021775,YP_009230000.1_Cnaphalocrocis_medinalis_granulovirus:1.7859620152)98:1.0288598714,NP_872538.1_Adoxophyes_orana_granulovirus:1.0450525580)62:0.5345437821)52:0.0708761626,(YP_003429408.1_Artogeia_rapae_granulovirus:0.7206295314,(NP_148884.1_Cydia_pomonella_granulovirus:0.4513284639,(YP_006908603.1_Epinotia_aporema_granulovirus:0.7813185497,YP_009182289.1_Diatraea_saccharalis_granulovirus:0.7257572595)74:0.0916264562)75:0.1612338462)68:0.1380017043)71:0.1779456276,YP_001257041.1_Spodoptera_litura_granulovirus:0.8793284091)70:0.1193014327,YP_004376292.1_Clostera_anachoreta_granulovirus:0.7057521308)85:0.1374946625,NP_068302.1_Plutella_xylostella_granulovirus:1.0365446648)98:0.4206540932);
+
+TIME STAMP
+----------
+
+Date and time: Mon Sep 26 01:12:03 2022
+Total CPU time used: 2174.238921 seconds (0h:36m:14s)
+Total wall-clock time used: 2191.676432 seconds (0h:36m:31s)
+
