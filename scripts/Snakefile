@@ -1,9 +1,14 @@
+import pandas as pd
+ORTHOGROUPS = pd.read_csv("../resources/Orthogroups.tsv", sep="\t", usecols=["Orthogroup"]).Orthogroup
+
+
 rule all:
     input:
         "../results/sfgv-arg_proteome_dataset.csv",
         "../results/ob_proteome_annotation.tsv",
         "../results/figure1.png",
-        "../results/orf101_orthologs_refseq.aln.faa.treefile"
+        "../results/orf101_orthologs_refseq.aln.faa.treefile",
+        "../results/evolutionary_rates/evolutionary_rates.csv"
 
 rule map_uniprot2ncbi:
     input:
@@ -123,3 +128,89 @@ rule build_orf101_phylogeny:
         """
         iqtree -s {input} -B 1000 -m JTT+F+R5
         """
+
+
+rule extract_orthogroup_multifasta:
+    input:
+        sequences="../resources/betabaculovirus_cds_database.fna",
+        orthogroups="../resources/Orthogroups.tsv"
+    params: "../results/evolutionary_rates/"
+    output: expand("../results/evolutionary_rates/{og}.fna", og=ORTHOGROUPS),
+            expand("../results/evolutionary_rates/{og}.faa", og=ORTHOGROUPS)
+    shell:
+        """
+        ./extract_orthogroups.py -o {input.orthogroups} -s {input.sequences} -d {params}
+        """
+
+
+rule protein_alignment:
+    input: "../results/evolutionary_rates/{og}.faa"
+    output: "../results/evolutionary_rates/{og}.aln.faa"
+    shell:
+      """
+      mafft {input} > {output}
+      """
+
+
+rule filter_codon_alignment:
+    input: "../results/evolutionary_rates/{og}.aln.faa"
+    params: "../results/evolutionary_rates/{og}.fna"
+    output: "../results/evolutionary_rates/{og}.aln.filt.fna"
+    shell:
+      """
+      trimal -in {input} -out {output} -ignorestopcodon -backtrans {params} -cons 60 -gt 0.4
+      """
+
+
+
+
+# rule codon_alignment:
+#     input: "../results/evolutionary_rates/{og}.aln.faa",
+#            "../results/evolutionary_rates/{og}.fna"
+#     output: "../results/evolutionary_rates/{og}.aln.fna"
+#     shell:
+#       """
+#       pal2nal.pl {input} -output fasta > {output}
+#       """
+
+
+rule run_fubar_analysis:
+    input: "../results/evolutionary_rates/{og}.aln.filt.fna",
+           "../resources/SpeciesTree_rooted.txt"
+    output: "../results/evolutionary_rates/{og}.aln.filt.fna.FUBAR.json"
+    shell:
+      """
+      hyphy fubar --alignment {input[0]} --tree {input[1]}
+      """
+
+
+rule run_meme_analysis:
+    input: "../results/evolutionary_rates/{og}.aln.filt.fna",
+           "../resources/SpeciesTree_rooted.txt"
+    output: "../results/evolutionary_rates/{og}.aln.filt.fna.MEME.json"
+    shell:
+      """
+      hyphy meme --alignment {input[0]} --tree {input[1]}
+      """
+
+
+rule process_fubar_absrel_results:
+    input:
+        # fubar="../results/evolutionary_rates/{og}.aln.filt.fna.FUBAR.json"
+        fubar="../results/evolutionary_rates/{og}.aln.filt.fna.FUBAR.json",
+        meme="../results/evolutionary_rates/{og}.aln.filt.fna.MEME.json",
+
+    output: temp("../results/evolutionary_rates/{og}.hyphy.csv")
+    shell:
+      """
+      ./parse_hyphy_output.py --fubar {input.fubar} --meme {input.meme} --output {output}
+      """
+
+
+rule merge_hyphy_results:
+    input: expand("../results/evolutionary_rates/{og}.hyphy.csv", og=ORTHOGROUPS)
+    output: "../results/evolutionary_rates/evolutionary_rates.csv"
+    shell:
+      """
+      cat {input} > {output}
+      """
